@@ -1,0 +1,111 @@
+.container-fluid{
+    font-family: 'Roboto Slab', serif;
+}
+.img{
+    background-image: linear-gradient(rgba(127, 186, 245, 0.856),rgba(5, 5, 5, 0.2)),url(../image/background/factory.jpg);
+}
+.img2{
+    background-image: linear-gradient(rgba(56, 57, 58, 0.856),rgba(5, 5, 5, 0.2)),url(../image/background/glass-building\ \(1\).jpg);
+  
+}
+.img3{
+    background-image: linear-gradient(rgba(56, 57, 58, 0.856),rgba(5, 5, 5, 0.2)),url(../image/background/working-1.jpeg);
+}
+.img4{
+    background-image: linear-gradient(rgba(56, 57, 58, 0.856),rgba(5, 5, 5, 0.2)),url(../image/background/crane-handle.jpg);
+}
+.img5{
+    background-image: linear-gradient(rgba(56, 57, 58, 0.856),rgba(5, 5, 5, 0.2)),url(../image/background/bg-09-free-img.jpg);
+}
+.nav .row{
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: 100% 100%;
+    padding-bottom: 150px !important;
+}
+#ourproducts .row{
+    background-image: linear-gradient(rgb(27, 27, 27),rgba(82, 78, 78, 0.2)),url(../image/background/working-1.jpeg);
+    background-size: 100% 100%;
+    background-position: 100% 100%;
+    padding: 150px 0px;
+    background-attachment: fixed;
+}
+.footer .row{
+    background-image: linear-gradient(rgb(0, 0, 0),rgba(0, 0, 0, 0.507)), url(../image/background/footer-bg.jpg);
+    background-size: 100% 100%;
+    background-position: 100% 100%;
+    padding: 150px 0px;
+    background-attachment: fixed;
+}
+.nav-item a:hover{
+    color: white !important;
+    transition-duration: 0s;
+}
+.btn:hover{
+    background-color: black !important;
+    border: black !important;
+}
+li:hover{
+    color: red !important;
+}
+.footer .row i:hover{
+    color: red !important;
+}
+.footer a:hover{
+    color: red !important;
+    transition-duration: 0s;
+}
+.carousel-item{
+    position: relative;
+}
+.carousel-caption{
+    width: 50%;
+    position: absolute;
+    top: 40%;
+    margin: 0px auto;
+}
+.pagination a:hover{
+    scale: 1.4;
+    color: red !important;
+    background-color: black !important;
+}
+.services i:hover{
+    scale: 1.1;
+    color: red !important;
+    transform: rotateZ(360deg);
+}
+.footer span:hover{
+    scale: 1.3;
+    color: blue !important;
+}
+.enim i:hover{
+    color: yellow;
+}
+#inductive img:hover{
+    scale: 0.9;
+}
+#contact i:hover{
+    scale: 1.1;
+    color: red !important;
+    transform: rotateZ(360deg);
+}
+.enim img:hover{
+    scale: 1.2;
+    transition-duration: 3s;
+}
+#consequatur img:hover{
+    scale: 1.2;
+    transition-duration: 3s;
+}
+:hover{
+    transition-duration: 1s;
+}
+#testimonials img:hover{
+    scale: 1.1;
+}
+#constructions img:hover{
+    scale: 1.4;
+}
+#optimized img:hover{
+    scale: 0.9;
+}

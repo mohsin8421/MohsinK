@@ -1,0 +1,64 @@
+.container-fluid{
+    font-family: 'Merriweather', serif;
+}
+#nav .row{
+    background-image: url(../image/background/section-00.jpg);
+    background-position: 100% 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 200px;
+    
+}
+#ceremony{
+    background-image: url(../image/background/section-05.jpg);
+    background-position: 100% 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* padding-bottom: 100px; */
+}
+#gallery .col-12:hover{
+    scale: 0.8;   
+    transition-duration: 2s;
+}
+#matrimonial img:hover{
+    scale: 1.1;
+    transform: rotateZ(-1deg);
+    transition-duration: 1s;
+
+}
+.gallery2:hover{
+    transform: rotateZ(2deg);
+}
+.gallery1:hover{
+    transform: rotateZ(-2deg);
+}
+#programme img:hover{
+    scale: 0.9;
+    transform: rotateZ(-1deg);
+}
+#blog .card-img-overlay:hover{
+    scale: 1.1;
+    transition-duration: 2s;
+}
+#footer .row{
+    background-color: #752C20;
+}
+.footer1{
+    background-color: #461A13;
+}
+#meet i:hover{
+    transform: rotateZ(360deg);
+    transition-duration: 1s;
+    color: blue !important;
+}
+.footer2 i:hover{
+        transform: rotateZ(360deg);
+        transition-duration: 1s;
+        color: blue !important;
+}
+#carousel .row{
+    background-image: url(../image/background/pexels-craig-adderley-1858215-min.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 100% 100%;
+}

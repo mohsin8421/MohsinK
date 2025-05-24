@@ -1,0 +1,815 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bike</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" href="image/illustration/m-icon-min (1) (1).jpg">
+    <link rel="stylesheet" href="../CSS/owl.carousel.min.css">
+    <link rel="stylesheet" href="../CSS/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <section class="container-fluid g-0">
+      <section id="head">
+        <div class="container-fluid ">
+          <div class="row p-2 bg-secondary">
+            <div class="col-lg-3 d-none d-lg-block my-auto text-center">
+              <i class="bi bi-telephone text-danger fs-2 p-2"></i>
+              <a href="tel:+0123456789" class="text-decoration-none text-light pt-2">+012-345-6789</a>
+            </div>
+            <div class="col-lg-5 d-none d-lg-block text-center">
+              <h2><span class="text-danger">Motorcycles</span> <span class="text-white">Repair</span></h2>
+            </div>
+            <div class="col-lg-4 d-none d-lg-block text-center">
+              <i class="bi bi-twitter p-2 fs-2 text-danger"></i>
+                    <i class="bi bi-facebook p-2 fs-2 text-danger"></i>
+                    <i class="bi bi-linkedin p-2 fs-2 text-danger"></i>
+                    <i class="bi bi-instagram p-2 fs-2 text-danger"></i>
+            </div>
+          </div>
+        </div>
+      </section><!--end-of-head-->
+        <section id="login">
+            <div class="container-fluid">
+                <div class="row p-2">
+                    <div class="col-12 col-md-3 text-center">
+                        <!-- <ul class="list-unstyled text-center">
+                            <li class="nav-item dropdown p-1">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    LOGIN / REGISTER
+                                </a>
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#">Login</a></li>
+                                  <li><a class="dropdown-item" href="#">Register</a></li>
+                                </ul>
+                              </li>
+                        </ul> -->
+                        <span class="btn btn-outline-danger">Login</span>
+                        <span class="btn btn-outline-danger">Register</span>
+                    </div>
+                    <div class="col-12 col-md-3">
+                      <div class="input-group md-3 p-1">
+                        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                        <button class="input-group-text btn btn-outline-danger" id="basic-addon1"><i class="bi bi-search"></i></button>
+                      </div>
+                          
+                    </div>
+                    <div class="col-12 col-md-6">
+                    <div class="row text-center">
+                        <div class="col-4">
+                          <button class="btn btn-outline-danger" type="submit"><i class="bi bi-suit-heart-fill"></i>(0)</button>
+                        </div>
+                        <div class="col-4">
+                          <button class="btn btn-outline-danger" type="submit"><i class="bi bi-gift-fill"></i></button>
+                        </div>
+                        <div class="col-4">
+                          <button class="btn btn-outline-danger" type="submit"><i class="bi bi-cart-dash-fill"></i>(0)</button>
+                        </div>
+                      </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section><!--end-of-login-->
+        <header id="nav" class="sticky-top">
+          <div class="container-fluid">
+            <div class="row bg-secondary">
+              <div class="col-12">
+                <nav class="navbar navbar-expand-lg ">
+                  <div class="container-fluid">
+                    <a class="navbar-brand d-lg-none text-light" href="#">Motorcycles <span class="text-danger">Repair</span></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse text-light" id="navbarNav">
+                      <ul class="nav justify-content-center mx-auto">
+                        <li class="nav-item p-2">
+                          <a class="nav-link btn btn-danger text-reset" href="#">HOME</a>
+                        </li>
+                        <div class="dropdown p-2">
+                          <button class="btn btn-outline-danger dropdown-toggle text-light" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            MOTORCYCLE GEAR
+                          </button>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Street</a></li>
+                            <li><a class="dropdown-item" href="#">Dirt Bike</a></li>
+                            <li><a class="dropdown-item" href="#">Cruiser</a></li>
+                          </ul>
+                        </div>
+                        <div class="dropdown p-2">
+                          <button class="btn btn-outline-danger text-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            PARTS
+                          </button>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Aftermarket Parts</a></li>
+                            <li><a class="dropdown-item" href="#">Batteries & Electrical</a></li>
+                            <li><a class="dropdown-item" href="#">Lighting</a></li>
+                            <li><a class="dropdown-item" href="#">Engine</a></li>
+                            <li><a class="dropdown-item" href="#">Fuel</a></li>
+                            <li><a class="dropdown-item" href="#">Foot Controls</a></li>
+                            <li><a class="dropdown-item" href="#">Drive & Transmission</a></li>
+                          </ul>
+                        </div>
+                        <div class="dropdown p-2">
+                          <button class="btn btn-outline-danger text-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            TIRES
+                          </button>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Tire Types</a></li>
+                            <li><a class="dropdown-item" href="#">Tire Brands</a></li>
+                          </ul>
+                        </div>
+
+                        <li class="nav-item p-2">
+                          <a class="nav-link active btn btn-danger text-reset" aria-current="page" href="#">RESERVE NOW</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </header><!--end-of-nav-->
+        <section id="carousel">
+          <div class="container-fluid overflow-hidden g-0">
+            <div class="row ">
+              <div class="col-12">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="image\illustration\slider1-min.png" class="d-block w-100 img-fluid" alt="image not found">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="image\illustration\slider2-min.png" class="d-block w-100 img-fluid" alt="image not found">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="image\illustration\slider3-min.png" class="d-block w-100 img-fluid" alt="image not found">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="image/illustration/slider4-min.png" class="d-block w-100 img-fluid" alt="image not found">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section><!--end-of-carousel-->
+        <section id="dirt">
+          <div class="container">
+            <div class="row p-2">
+              <div class="col-12 p-5">
+                <h3 class="display-5 fw-bold">DIRT BIKE</h3>
+              </div>
+              <div class="col-12 col-lg-3 col-md-6 p-2">
+                <div class="card h-100">
+                  <img src="image\illustration\dirt-bike1-min.png" class="card-img-top img-fluid" alt="image not found">
+                  <div class="card-body">
+                    <h5 class="card-text">BELL MX-9 MIPS DISRUPT HELMET</h5>
+                    <div class="card-footer ">
+                      <a href="#" class="card-link text-decoration-none text-reset">&dollar;125.95</a>
+                      <a href="#" class="card-link btn btn-outline-danger"><i class="fas fa-shopping-cart"></i>Order Now</a>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 p-2">
+                <div class="card h-100">
+                  <img src="image\illustration\dirt-bike4-min.png" class="card-img-top img-fluid" alt="image not found">
+                  <div class="card-body">
+                    <h5 class="card-text">ALPINESTARS SUPERTECH M5 HELMET</h5>
+                    <div class="card-footer">
+                      <a href="#" class="card-link text-decoration-none text-reset">&dollar;125.95</a>
+                      <a href="#" class="card-link btn btn-outline-danger"><i class="fas fa-shopping-cart"></i>Order Now</a>
+                    </div>
+                  </div>
+                </div>
+
+
+
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 p-2">
+                <div class="card h-100">
+                  <img src="image\illustration\dirt-bike2-min.png" class="card-img-top img-fluid" alt="image not found">
+                  <div class="card-body">
+                    <h5 class="card-text">FLY RACING F-16 BIKERS PANTS</h5>
+                    <div class="card-footer ">
+                      <a href="#" class="card-link text-decoration-none text-reset">&dollar;125.95</a>
+                      <a href="#" class="card-link btn btn-outline-danger"><i class="fas fa-shopping-cart"></i>Order Now</a>
+                    </div>
+                  </div>
+                </div>
+
+
+
+
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 p-2">
+                <div class="card h-100">
+                <img src="image\illustration\dirt-bike3-min.png" class="card-img-top img-fluid" alt="image not found">
+                <div class="card-body">
+                 <h5 class="card-text">GAERNE BALANCE OILED BOOTS</h5>
+                 <div class="card-footer">
+                  <a href="#" class="card-link text-decoration-none text-reset">&dollar;125.95</a>
+                  <a href="#" class="card-link btn btn-outline-danger"><i class="fas fa-shopping-cart"></i>Order Now</a>
+                </div>
+                </div>
+              </div>
+
+
+
+
+              </div>
+            
+              <div class="col-12 col-md-6 col-lg-3 p-2">
+                <div class="card h-100">
+                  <img src="image\illustration\dirt-bike5-min.png" class="card-img-top img-fluid" alt="image not found">
+                  <div class="card-body">
+                    <h5 class="card-text">FOX BALANCE RACING DIRTPAW GLOVES</h5>
+                    <div class="card-footer">
+                      <a href="#" class="card-link text-decoration-none text-reset">&dollar;125.95</a>
+                      <a href="#" class="card-link btn btn-outline-danger"><i class="fas fa-shopping-cart"></i>Order Now</a>
+                    </div>
+                  </div>
+                </div>
+
+
+
+
+
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 p-2">
+                <div class="card h-100">
+                 <img src="image\illustration\dirt-bike6-min.png" class="card-img-top img-fluid" alt="image not found">
+                 <div class="card-body">
+                   <h5 class="card-text">KLIM BALANCE RACING BAJA S4 GLOVES</h5>
+                   <div class="card-footer">
+                    <a href="#" class="card-link text-decoration-none text-reset">&dollar;125.95</a>
+                    <a href="#" class="card-link btn btn-outline-danger"><i class="fas fa-shopping-cart"></i>Order Now</a>
+                  </div>
+                 </div>
+               </div>
+
+
+
+
+
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 p-2">
+                <div class="card h-100">
+                 <img src="image\illustration\dirt-bike7-min.png" class="card-img-top img-fluid" alt="image not found">
+                 <div class="card-body">
+                   <h5 class="card-text">THOR SECTOR FADER RACING HELMET</h5>
+                   <div class="card-footer">
+                    <a href="#" class="card-link text-decoration-none text-reset">&dollar;125.95</a>
+                    <a href="#" class="card-link btn btn-outline-danger"><i class="fas fa-shopping-cart"></i>Order Now</a>
+                  </div>
+                 </div>
+               </div>
+
+
+
+
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 p-2">
+                <div class="card h-100">
+                 <img src="image\illustration\dirt-bike8-min.png" class="card-img-top img-fluid" alt="image not found">
+                 <div class="card-body">
+                   <h5 class="card-text">O'NEAL 3 SERIES CRANK RACING HELMET</h5>
+                   <div class="card-footer">
+                    <a href="#" class="card-link text-decoration-none text-reset">&dollar;125.95</a>
+                    <a href="#" class="card-link btn btn-outline-danger"><i class="fas fa-shopping-cart"></i>Order Now</a>
+                  </div>
+                 </div>
+               </div>
+
+
+
+
+
+              </div>
+              <div class="col-12 text-end display-5 fixed-bottom">
+                <a href="#head"><i class="bi bi-arrow-up-circle-fill text-dark"></i></a>
+              </div>
+            </div>
+          </div>
+        </section><!--end-of-dirt-->
+        <section id="subscribe">
+          <div class="container-fluid">
+            <div class="row bg-secondary p-2 ">
+              <div class="col-12 col-md-6 text-center p-2">
+                <h5 class="fs-2 text-light">Subscribe Our Newsletter</h5>
+              </div>
+              <div class="col-md-4 p-3">
+                <div class="input-group mb-3">
+                  <input type="email" class="form-control" placeholder="Your email here" aria-label="Recipient's username" aria-describedby="basic-addon2">
+
+                  <button class="btn btn-danger text-light" id="basic-addon2">Submit</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section><!--end-of-subscribe-->
+        <section id="parts">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <h3 class="display-5 fw-bold p-5">PARTS</h3>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 p-2">
+                <div class="card h-100">
+                  <img src="image\illustration\parts1-min.png" class="card-img-top img-fluid" alt="image not found">
+                  <div class="card-body">
+                    <h5 class="card-text">R&G RACING FRONT TURN SIGNAL ADAPTER PLATES</h5>
+                    <div class="card-footer d-flex justify-content-evenly">
+                      <a href="#" class="card-link text-reset text-decoration-none fs-5">&dollar;25.95</a>
+                      <span class="btn btn-outline-danger"><i class="fas fa-shopping-cart"></i>Order Now</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 p-2">
+                <div class="card h-100">
+                  <img src="image\illustration\parts2-min.png" class="card-img-top img-fluid" alt="image not found">
+                  <div class="card-body">
+                    <h5 class="card-text">NEW RAGE CYCLES SIDE MOUNT LICENSE PLATE</h5>
+                    <div class="card-footer d-flex justify-content-evenly">
+                      <a href="#" class="card-link text-reset text-decoration-none fs-5">&dollar;85.95</a>
+                      <button class="btn btn-outline-danger"><i class="fas fa-shopping-cart"></i>Order Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 p-2">
+                <div class="card h-100">
+                  <img src="image\illustration\parts3-min.png" class="card-img-top img-fluid" alt="image not found">
+                  <div class="card-body">
+                    <h5 class="card-text">NEW RAGE CYCLES RAGE 360 TURN SIGNALS</h5>
+                    <div class="card-footer d-flex justify-content-evenly">
+                      <a href="#" class="card-link text-reset text-decoration-none fs-5">&dollar;125.95</a>
+                      <button class="btn btn-outline-danger"><i class="fas fa-shopping-cart"></i>Order Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 p-2">
+                <div class="card h-100">
+                  <img src="image\illustration\parts4-min.png" class="card-img-top img-fluid" alt="image not found">
+                  <div class="card-body">
+                    <h5 class="card-text">CUSTOM DYNAMICS PROBEAM PROFILE LED</h5>
+                    <div class="card-footer d-flex justify-content-evenly">
+                      <a href="#" class="card-link text-reset text-decoration-none fs-5">&dollar;65.95</a>
+                      <button class="btn btn-outline-danger"><i class="fas fa-shopping-cart"></i>Order Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 p-2">
+                <div class="card h-100">
+                  <img src="image\illustration\parts5-min.png" class="card-img-top img-fluid" alt="image not found">
+                  <div class="card-body">
+                    <h5 class="card-text">POLISPORT E-BLAZE LED HEADLIGHT</h5>
+                    <div class="card-footer d-flex justify-content-evenly">
+                      <a href="#" class="card-link text-reset text-decoration-none fs-5">&dollar;255.95</a>
+                      <button class="btn btn-outline-danger"><i class="fas fa-shopping-cart"></i>Order Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 p-2">
+                <div class="card h-100">
+                  <img src="image\illustration\parts6-min.png" class="card-img-top img-fluid" alt="image not found">
+                  <div class="card-body">
+                    <h5 class="card-text">CIRO LIGHTSTRIKE TRUNK LIGHT</h5>
+                    <div class="card-footer d-flex justify-content-evenly">
+                      <a href="#" class="card-link text-reset text-decoration-none fs-5">&dollar;95.95</a>
+                      <button class="btn btn-outline-danger"><i class="fas fa-shopping-cart"></i>Order Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 p-2">
+                <div class="card h-100">
+                  <img src="image\illustration\parts7-min.png" class="card-img-top img-fluid" alt="image not found">
+                  <div class="card-body">
+                    <h5 class="card-text">KODLIN USA ELYPSE 3-1 REAR LIGHT BAR</h5>
+                    <div class="card-footer d-flex justify-content-evenly">
+                      <a href="#" class="card-link text-reset text-decoration-none fs-5">&dollar;25.95</a>
+                      <button class="btn btn-outline-danger"><i class="fas fa-shopping-cart"></i>Order Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 p-2">
+                <div class="card h-100">
+                  <img src="image\illustration\parts8-min.png" class="card-img-top img-fluid" alt="image not found">
+                  <div class="card-body">
+                    <h5 class="card-text">KURYAKYN NOVA MOUNT LICENSE PLATE FRAME</h5>
+                    <div class="card-footer d-flex justify-content-evenly">
+                      <a href="#" class="card-link text-reset text-decoration-none fs-5">&dollar;125.95</a>
+                      <button class="btn btn-outline-danger"><i class="fas fa-shopping-cart"></i>Order Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section><!--end-of-parts-->
+        <section id="reserve">
+          <div class="container">
+            <div class="row p-5">
+                <div class="col-12 col-md-6">
+                    <div class="row ">
+                    <div class="col-lg-4 d-none d-lg-block edit1">
+                      <img src="image\illustration\about-1-min.jpg" alt="image not found" class="img-fluid">
+                    </div>
+                    <div class="col-12 d-lg-none p-2">
+                      <img src="image\illustration\about-1-min.jpg" alt="image not found" class="img-fluid">
+                    </div>
+                    <div class="col-12 d-none d-md-block d-lg-none p-5 text-center">
+                      <button class="btn btn-outline-danger">Read More</button>
+                    </div>
+                    <div class="col-lg-4 d-none d-lg-block bg-danger border border-white edit2">
+                    </div>
+                    <div class="col-lg-4 d-none d-lg-block edit3 position-relative left-50">
+                      <img src="image\illustration\about-2-min.jpg" alt="image not found" class="img-fluid">
+                    </div>
+                    <div class="col-12 d-md-none p-2">
+                      <img src="image\illustration\about-2-min.jpg" alt="image not found" class="img-fluid">
+                    </div>
+                    
+                  </div>
+                </div>
+              
+              <div class="col-12 col-md-6 p-3">
+                <h4 class="p-2 display-5 fw-bold">RESERVE NOW</h4>
+                <div class="container">
+                <form class="row g-3">
+                  <div class="col-md-6">
+                    <label for="validationServer01" class="form-label">Full Name</label>
+                    <input type="text" class="form-control" placeholder="Your Name" id="validationServer01" required>
+                  </div>
+
+                    <div class="col-md-6">
+                    <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                      <input type="email" class="form-control" id="inputEmail3">
+                    </div>
+
+                    <div class="col-md-6">
+                      <label for="inputNumber" class="form-label">Phone Number</label>
+                      <input type="tel" class="form-control" id="inputNumber" placeholder="123-456-7890">
+                    </div>
+                  <div class="col-md-6">
+                    <label for="validationServer04" class="form-label">Select A Service</label>
+                    <select class="form-select" id="validationServer04" aria-describedby="validationServer04Feedback">
+                      <option selected>Select A Service</option>
+                      <option>Steering and braking</option>
+                      <option>Electricals</option>
+                      <option>Engine Check</option>
+                      <option>Tyers</option>
+                      <option>The cost!</option>
+                      <option>Annual Services</option>
+                    </select>
+                  </div>
+
+                  <div class="col-md-6">
+                    <label for="date" class="form-label">Date</label>
+                    <input type="date" class="form-control" min="2010-01-01" max="2025-01-01" id="date">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="time" class="form-label">Time</label>
+                    <select class="form-select" id="time" aria-describedby="validationServer04Feedback">
+                      <option selected>5:00 PM</option>
+                      <option>6:00 PM</option>
+                      <option>7:00 PM</option>
+                      <option>8:00 PM</option>
+                      <option>9:00 PM</option>
+                    </select>
+                  </div>
+                  <div class="col-12">
+                    <label for="special" class="form-label">Special Request</label>
+                    <textarea class="form-control" id="special"></textarea>
+                  </div>
+
+                  <div class="col-12">
+                    <button class="btn btn-primary" type="submit">Submit Request</button>
+                  </div>
+                </form>
+              </div>
+              </div>
+            </div>
+          </div>
+        </section><!--end-of-reserve-->
+        <section id="tires">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <h5 class="display-5 fw-bold p-5">TIRES</h5>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 p-2">
+                <div class="card h-100">
+                  <img src="image\illustration\tires1-min.png" class="card-img-top img-fluid" alt="image not found">
+                  <div class="card-body">
+                    <h5 class="card-text">PIRELLI ANGLE GT RACING TIRES</h5>
+                    <div class="card-footer d-flex justify-content-evenly">
+                      <a href="#" class="card-link text-reset text-decoration-none fs-5">&dollar;125.95</a>
+                      <button class="btn btn-danger"><i class="fas fa-shopping-cart"></i>Order Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 p-2">
+                <div class="card h-100">
+                  <img src="image\illustration\tires2-min.png" class="card-img-top img-fluid" alt="image not found">
+                  <div class="card-body">
+                    <h5 class="card-text">PIRELLI DIABLO ROSSO III TIRES</h5>
+                    <div class="card-footer d-flex justify-content-evenly">
+                      <a href="#" class="card-link text-reset text-decoration-none"><h5>$255.95</h5></a>
+                      <button class="btn btn-danger"><i class="fas fa-shopping-cart"></i>Order Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 p-2">
+                <div class="card h-100">
+                  <img src="image\illustration\tires3-min.png" class="card-img-top img-fluid" alt="image not found">
+                  <div class="card-body">
+                    <h5 class="card-text">DUNLOP AMERICAN ELITE TIRES</h5>
+                    <div class="card-footer d-flex justify-content-evenly">
+                      <a href="#" class="card-link text-reset text-decoration-none fs-5">&dollar;155.95</a>
+                      <button class="btn btn-danger"><i class="fas fa-shopping-cart"></i>Order Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 p-2">
+                <div class="card h-100">
+                  <img src="image\illustration\tires4-min.png" class="card-img-top img-fluid" alt="image not found">
+                  <div class="card-body">
+                    <h5 class="card-text">SHINKO 244 DUAL SPORT TIRES</h5>
+                    <div class="card-footer d-flex justify-content-evenly">
+                     <a href="#" class="card-link text-reset text-decoration-none fs-5">&dollar;155.95</a>
+                     <button class="btn btn-danger"><i class="fas fa-shopping-cart"></i>Order Now</button>
+                   </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section><!--end-of-tires-->
+        <section id="call">
+          <div class="container-fluid">
+            <div class="row p-2 bg-secondary ">
+              <div class="col-12 col-md-7 ps-5">
+                <h6 class="display-5 fw-bold text-light">call us for any queries</h6>
+              </div>
+              <div class="col-12 col-md-4 text-end  p-3">
+                <a href="tel:+0123456789" class="text-decoration-none text-light btn btn-danger p-2">+012-345-6789</a>
+              </div>
+            </div>
+          </div>
+        </section><!--end-of-call-->
+        <section id="gallery">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-12 p-5 ">
+                <h6 class="display-5 fw-bold">GALLERY</h6>
+              </div>
+              <div class="col-12">
+                <div id="client-list" class="owl-carousel owl-theme">
+                  <div class="client m-2">
+                    <img src="image/illustration/g1-min.jpg" alt="image not found" class="img-fluid rounded">
+                  </div>
+                  <div class="client m-2">
+                    <img src="image/illustration/g2-min.jpg" alt="image not found" class="img-fluid rounded">
+                  </div>
+                  <div class="client m-2">
+                    <img src="image/illustration/g3-min.jpg" alt="image not found" class="img-fluid rounded">
+                  </div>
+                  <div class="client m-2">
+                    <img src="image/illustration/g4-min.jpg" alt="image not found" class="img-fluid rounded">
+                  </div>
+                  <div class="client m-2">
+                    <img src="image/illustration/g5-min.jpg" alt="image not found" class="img-fluid rounded">
+                  </div>
+                  <div class="client m-2">
+                    <img src="image/illustration/g6-min.jpg" alt="image not found" class="img-fluid rounded">
+                  </div>
+                  <div class="client m-2">
+                    <img src="image/illustration/g7-min.jpg" alt="image not found" class="img-fluid rounded">
+                  </div>
+                  <div class="client m-2">
+                    <img src="image/illustration/g7-min.jpg" alt="image not found" class="img-fluid rounded">
+                  </div>
+                  <div class="client m-2">
+                    <img src="image/illustration/g9-min.jpg" alt="image not found" class="img-fluid rounded">
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+          
+        </section><!--end-of-gallery-->
+        <section id="services">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 p-3">
+                <h5 class="display-5 fw-bold">SERVICES</h5>
+              </div>
+              <div class="col-12 col-md-4 p-3">
+                <div class="card h-100">
+                <img src="image\illustration\service1-min.jpg" class="card-img-top img-fluid" alt="image not found">
+                  
+                  <div class="card-body">
+                    <h5 class="card-text">DUNLOP AMERICAN ELITE TIRES</h5>
+                      <button class="btn btn-danger"><i class="fas fa-shopping-cart"></i>Read More</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4 p-3">
+                <div class="card h-100">
+                  <img src="image\illustration\service2-min.jpg" class="card-img-top img-fluid" alt="image not found">
+                  <div class="card-body">
+                    <h5 class="card-text">DUNLOP AMERICAN ELITE TIRES</h5>
+                      <button class="btn btn-danger"><i class="fas fa-shopping-cart"></i>Read More</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4 p-3">
+                <div class="card h-100">
+                  <img src="image\illustration\service3-min.jpg" class="card-img-top img-fluid" alt="image not found">
+                  <div class="card-body">
+                    <h5 class="card-text">DUNLOP AMERICAN ELITE TIRES</h5>
+                      <button class="btn btn-danger"><i class="fas fa-shopping-cart"></i>Read More</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4 p-3">
+                <div class="card h-100">
+                  <img src="image\illustration\service4-min.jpg" class="card-img-top img-fluid" alt="image not found">
+                  <div class="card-body">
+                    <h5 class="card-text">DUNLOP AMERICAN ELITE TIRES</h5>
+                      <button class="btn btn-danger"><i class="fas fa-shopping-cart"></i>Read More</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4 p-3">
+                <div class="card h-100">
+                  <img src="image\illustration\service5-min.jpg" class="card-img-top img-fluid" alt="image not found">
+                  <div class="card-body">
+                    <h5 class="card-text">DUNLOP AMERICAN ELITE TIRES</h5>
+                      <button class="btn btn-danger"><i class="fas fa-shopping-cart"></i>Read More</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4 p-3">
+                <div class="card h-100">
+                  <img src="image\illustration\service6-min.jpg" class="card-img-top img-fluid" alt="image not found">
+                  <div class="card-body">
+                    <h5 class="card-text">DUNLOP AMERICAN ELITE TIRES</h5>
+                      <button class="btn btn-danger"><i class="fas fa-shopping-cart"></i>Read More</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section><!--end-of-services-->
+        <section id="our">
+          <div class="container">
+            <div class="row p-4">
+              <div class="col-12">
+                <h5 class="p-3 display-5 fw-bold">OUR BLOG</h5>
+              </div>
+              <div class="col-12 col-md-4 p-3">
+                <div class="card text-bg-dark">
+                  <img src="image\illustration\blog-1-min.jpg" class="card-img" alt="image not found">
+                  <div class="card-img-overlay top-50 fs-4">
+                    <p class="card-title">Choosing your First Motorcycles</p>
+                    <p class="card-text d-md-none d-lg-block"><small>14/01/2023</small></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4 p-3">
+                <div class="card text-bg-dark ">
+                  <img src="image\illustration\blog-2-min.jpg" class="card-img" alt="image not found">
+                  <div class="card-img-overlay top-50 fs-4">
+                    <p class="card-title ">Motorcycle Repair Checklist for Spring</p>
+                    <p class="card-text d-md-none d-lg-block"><small>14/01/2023</small></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-4 p-3">
+                <div class="card text-bg-dark ">
+                  <img src="image\illustration\blog-3-min.jpg" class="card-img" alt="image not found">
+                  <div class="card-img-overlay top-50 fs-4">
+                    <p class="card-title">Tips for Buying a Used Motorcycle</p>
+                    <p class="card-text d-md-none d-lg-block"><small>18/07/2023</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section><!--end-of-our-->
+        <section id="get">
+          <div class="container-fluid">
+            <div class="row bg-secondary p-3 text-center text-light">
+              <div class="col-12 col-md-6 col-lg-4 p-3">
+                  <h5 class="p-1 fs-3 fw-bold">Get In Touch</h5>
+                  <p><i class="bi bi-balloon"></i> 203 Fake St. Mountain View,
+                    11378 New York</p>
+                    <p><i class="bi bi-envelope-fill "></i> motorcycle@example.com</p>
+                    <p class="p-2"><a href="tel:+911234567890" class="text-decoration-none text-reset"><i class="bi bi-telephone-fill"></i>+012-345-6789</a></p>
+                    <i class="bi bi-twitter fs-2 text-light rounded-circle btn btn-danger"></i>
+                    <i class="bi bi-facebook fs-2 text-light rounded-circle btn btn-danger"></i>
+                    <i class="bi bi-linkedin  fs-2 text-light rounded-circle btn btn-danger"></i>
+                    <i class="bi bi-instagram  fs-2 text-light rounded-circle btn btn-danger"></i>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4 p-3">
+                <h5 class="p-1 fs-3 fw-bold">Quick Links</h5>
+                <ul class="list-unstyled p-2">
+                  <li class="p-2">About Us</li>
+                  <li class="p-2">Privacy Policy</li>
+                  <li class="p-2">Terms & Condition</li>
+                  <li class="p-2">Reservations</li>
+                  <li class="p-2">Contact</li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg-4 bg-danger text-center p-4">
+                <h5 class=" display-5 ">Newsletter</h5>
+                <p class="pb-5">Subscribe Our Newsletter</p>
+                <div class="input-group mb-3 pb-5">
+                  <input type="email" class="form-control" placeholder="Your Email" aria-label="Username" aria-describedby="basic-addon1">
+                  <button class="input-group-text btn btn-secondary text-light" id="basic-addon1">Sign Up</button>
+                </div>   
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="copyright">
+          <div class="container">
+            <div class="row p-3">
+              <div class="col-12 col-md-6">
+                <p>Copyright &copy; 2023 Motorcycles Repair. All Rights Reserved</p>
+              </div>
+              <div class="col-12 col-md-6 text-end">
+                <p>Designed By <span class="text-danger"> MK&hearts;</span></p>
+              </div>
+            </div>
+          </div>
+        </section>
+    </section><!--end-of-container-fluid-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="../JS/owl.carousel.js"></script>
+    <script>
+      $(function(){
+
+          $('#client-list').owlCarousel({
+              items: 6,
+              autoplay: true,
+              smartSpeed: 700,
+              loop: true,
+              autoplayHoverPause: true,
+              responsive: {
+                
+                  768 : {
+                      items : 2
+                      
+                  },
+                  1200 : {
+                      items : 3
+                  }
+              }
+          });
+      });
+  </script> 
+   <script>
+    $(window).on('scroll',function(){
+      if ($(window).scrollTop()){
+        $('header').addClass('white');
+      }
+      else{
+        $('header').removeClass('white');
+      }
+    })
+  </script>
+  </body>
+</html>

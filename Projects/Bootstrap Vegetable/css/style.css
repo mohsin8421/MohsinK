@@ -1,0 +1,133 @@
+.container-fluid{
+    font-family: 'Kanit', sans-serif;
+}
+.font{
+    font-size: 13px;
+}
+#deal p{
+    font-size: 12px;
+}
+.edit{
+    background-image: url(../image/illustration/img1-2-1.jpg.webp);
+    background-size: 100% 100%;
+    background-position: 100% 100%;
+}
+.img1{
+    background-image: url(../image/illustration/img1-3.jpg.webp);
+    background-size: 100% 100%;
+    background-position: 100% 100%;
+}
+.img2{
+    background-image: url(../image/illustration/banner-23.jpg.webp);
+    background-size: 100% 100%;
+    background-position: 100% 100%;
+    /* padding: 150px 0px; */
+}
+.img3{
+    background-image: url(../image/illustration/banner-24.jpg.webp);
+    background-size: 100% 100%;
+    background-position: 100% 100%;
+}
+.edit1{
+    background-image: url(../image/illustration/img1-4.jpg.webp);
+    background-size: 100% 100%;
+    background-position: 100% 100%;
+    padding: 100px 0px;
+}
+.edit2{
+    background-image: url(../image/illustration/img1-5.jpg.webp);
+    background-size: 100% 100%;
+    background-position: 100% 100%;
+    padding: 100px 0px;
+    
+}
+.pn2{
+    margin: 10px 0px;
+}
+.clip{
+    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 0 100%, 0% 50%, 0 0);
+    padding: 0px 20px;
+}
+#vegetables .col-lg-8{
+    background-image: url(../image/illustration/img1-1.jpg.webp);
+   background-position: 100% 100%;
+   background-size: 100% 100%;
+   /* padding: 95px 0px !important; */
+   padding: 120px 0px !important;
+
+}
+/* #vegetables .col-lg-4{
+    background-image: url(../image/illustration/banner-20.jpg.webp);
+    background-position: 100% 100%;
+   background-size: 100% 100%;
+   padding: 153px 0px !important;
+} */
+
+.carousel-item {
+    position: relative;
+}
+.carousel-caption{
+    width: 50%;
+    position: absolute;
+    top: 40%;
+    margin: 0% auto;
+}
+#shipping i{
+    color: #6FBB73;
+}
+.btn:hover{
+    background-color: #6FBB73;
+    color: white !important;
+}
+#deal .card img:hover{
+    scale: 1.1;
+    transition-duration: 1s;
+}
+#deal .card:hover{
+    background-color: #6FBB73;
+    color: white !important;
+}
+#deal .btn:hover{
+    background-color: black !important;
+}
+#trending .card img:hover{
+    scale: 0.9;
+    transition-duration: 1s;
+}
+#organic .card img:hover{
+    scale: 0.9;
+    transition-duration: 1s;
+}
+#shopbybrand .col-lg-2:hover{
+    scale: 1.1;
+    transition-duration: 1s;
+}
+li:hover{
+    color: #6FBB73 !important;
+}
+i:hover{
+    color: #6FBB73 !important;
+}
+.offcanvas-body .active{
+    background-color: #6FBB73 !important;
+}
+#categories img:hover{
+    animation: move 2s normal;
+}
+@keyframes move{
+    10%{
+        transform: rotateZ(-15deg);
+    }
+    20%{
+        transform: rotateZ(15deg);
+    }
+    30%{
+        transform: rotateZ(-10deg);
+    }
+    40%{
+        transform: rotateZ(10deg);
+    }
+}
+#happy{
+    background-color: #f3d2b8 !important;
+}

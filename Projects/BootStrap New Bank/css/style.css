@@ -1,0 +1,89 @@
+.carousel1{
+    background-image:linear-gradient(rgba(12, 11, 11, 0.685),rgba(224, 52, 29, 0.212)),url(../image/background/slider-img_11zon.jpg);
+    /* background-image: linear-gradient(); */
+    background-position: center;
+    padding: 320px 0px;
+}
+.carousel2{
+    background-image:linear-gradient(rgba(12, 11, 11, 0.685),rgba(224, 52, 29, 0.212)),url(../image/background/slider-img-2_11zon.jpg);
+    background-position: center;
+    padding: 320px 0px;
+}
+.carousel3{
+    background-image: linear-gradient(rgba(12, 11, 11, 0.685),rgba(224, 52, 29, 0.212)),url(../image/background/slider-img-3_11zon.jpg);
+    background-position: center;
+    padding: 320px 0px;
+}
+.carousel-item{
+    position: relative;
+}
+.carousel-caption{
+    position: absolute;
+    bottom: 30%;
+    /* right: 45%; */
+}
+.offcanvas-body li:hover{
+    border-bottom: 1px solid white;
+}
+button:hover{
+    background-color: white !important;
+    color: black !important;
+}
+#the,#more{
+    background-color: #131B28;
+}
+/* #advantages .btn-dark:hover{
+    color: #712331;
+}
+#advantages button{
+    background-color: #712331 !important;
+} */
+.hover,#subcribe,#choose{
+    background-color: #712331 !important;
+}
+.hover:hover{
+    color: #712331 !important;
+}
+i{
+    color: #712331 !important; 
+}
+#latest,#frequently,#footer{
+    background-color: #131B28 !important;
+}
+#map i:hover{
+    color: #712331 !important;
+   
+}
+#how .col-md-6 .display-1:hover{
+    transform: translateY(-5px);
+    border: #712331 !important;
+    transition-duration: 1s;
+}
+#footer .small,.active{
+    color: #712331 !important;
+}
+#footer .small:hover{
+    color: white !important;
+    transition-duration: 1s;
+}
+#footer li:hover{
+    color: #712331 !important;
+    transition-duration: 1s;
+    
+}
+.img-hover:hover{
+    scale: 0.9;
+    transition-duration: 1s;
+}
+#Latest img:hover{
+    scale: 1.1;
+    transition-duration: 1s;
+    
+}
+#advantages i:hover, #copy i:hover{
+    color: black !important;
+}
+#copy span:hover{
+    color: teal !important;
+    scale: 1.1;
+}

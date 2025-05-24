@@ -1,0 +1,649 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PaPay</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="image/illustration/bank.png">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <section class="container-fluid g-0">
+        <section id="papay" class=" bg-danger sticky-top">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <nav class="navbar navbar-expand-md">
+                            <div class="container-fluid">
+                              <img src="image/illustration/logo-home.png" alt="image not found" class="img-fluid">
+                              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                                <span class="navbar-toggler-icon"></span>
+                              </button>
+                              <div class="offcanvas offcanvas-end bg-danger" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                                <div class="offcanvas-header">
+                                  <!-- <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5> -->
+                                  <button type="button" class="btn-close ms-auto" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body ">
+                                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 text-center navbar navbar-dark">
+                                    <li class="nav-item">
+                                      <a class="nav-link text-white" aria-current="page" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link text-white" href="#">About</a>
+                                    </li>
+                                    <!-- <li class="nav-item dropdown">
+                                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Dropdown
+                                      </a>
+                                      <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                          <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                      </ul>
+                                    </li> -->
+                                    <li class="nav-item">
+                                        <a class="nav-link text-white" aria-current="page" href="#">Services</a>
+                                      </li>
+                                      <li class="nav-item">
+                                        <a class="nav-link text-white" href="#">Pricing</a>
+                                      </li>
+                                      <li class="nav-item">
+                                        <a class="nav-link text-white" href="#">Contacts</a>
+                                      </li>
+                                      <!-- <li>
+                                        <a href="#" class="pt-3"><i class="bi bi-search fs-6"></i></a>
+                                      </li> -->
+                                      <i class="bi bi-search pt-2 ps-md-1 text-white"></i>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </nav>
+                    </div>
+                </div>
+            </div>
+        </section><!--end-of-papay-->
+        <section id="carousel">
+            <div class="container-fluid">
+                <div class="row ">
+                    <div class="col-12  g-0">
+                        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active carousel1" data-bs-interval="10000" >
+                                <!-- <img src="..." class="d-block w-100" alt="..."> -->
+                                <div class="carousel-caption text-white text-md-start">
+                                  <h2 class="display-3">The Brightest Card in Your Wallet</h2>
+                                  <p class="pb-3">Papay Standard Card offers extensive list of features and  benfits for corporate and individual clients.</p>
+                                  <button class="btn btn-dark rounded-pill fs-5 fw-bold">Book a Card</button>
+                                </div>
+                              </div>
+                              <div class="carousel-item carousel2" data-bs-interval="2000">
+                                <!-- <img src="..." class="d-block w-100" alt="..."> -->
+                                <div class="carousel-caption text-white text-md-start">
+                                    <h2 class="display-3">#1 Choice for Your Banking Needs</h2>
+                                    <p class="pb-3">Our Orange Card is the best option if you are looking for high-quality and reliable banking services</p>
+                                    <button class="btn btn-dark rounded-pill fs-5 fw-bold">Book a Card</button>
+                                </div>
+                              </div>
+                              <div class="carousel-item carousel3">
+                                <!-- <img src="..." class="d-block w-100" alt="..."> -->
+                                <div class="carousel-caption text-white text-md-start">
+                                  <h2 class="display-3">Green Credit Card for Everyday Use</h2>
+                                  <p class="pb-3">Need a simple but secure credit card? Green Card from Dot Bank has all features you may need.</p>
+                                  <button class="btn btn-dark rounded-pill fs-5 fw-bold">Book a Card</button>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button> -->
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </section><!--end-of-carousel-->
+        <section id="more">
+            <div class="container-fluid">
+                <div class="row text-center pt-5">
+                  <div class="col-12">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-12 col-md-4 mt-2">
+                          <div class="card p-3 h-100">
+                              <div class="row p-3">
+                                  <div class="col-12 col-lg-4" data-aos="fade-up" data-aos-duration="1500">
+                                      <img src="image/illustration/progress-1.png" alt="image not found" class="img-fluid">
+                                  </div>
+                                  <div class="col-12 col-lg-8" data-aos="fade-up" data-aos-duration="2000"
+                                  >
+                                      <h6 class="text-muted">More than</h6>
+                                      <h3><span class="counter"> 23754</span></h3>
+                                      <p>Issued Cards</p>
+                                  </div>
+                              </div>
+                              <p class="text-muted">Our bank is an acknowledged leader in credit card distribution. We issue more than 5000 cards every year</p>
+                          </div>
+                      </div>
+                      <div class="col-12 col-md-4 mt-2">
+                          <div class="card p-3 h-100">
+                              <div class="row p-3">
+                                  <div class="col-12 col-lg-4" data-aos="fade-up" data-aos-duration="1500">
+                                      <img src="image/illustration/progress-1.png" alt="image not found" class="img-fluid">
+                                  </div>
+                                  <div class="col-12 col-lg-8" data-aos="fade-up" data-aos-duration="2000"
+                                  >
+                                      <h6 class="text-muted">Up to</h6>
+                                      <h3><span class="counter">30</span><span> %</span></h3>
+                                      <p>Cashback</p>
+                                  </div>
+                              </div>
+                              <p class="text-muted">We offer amazing amount of cashback for payments made with one of our credit cards – Blue, Green, or Orange.</p>
+                          </div>
+                      </div>
+                      <div class="col-12 col-md-4 mt-2">
+                          <div class="card p-3 h-100">
+                              <div class="row p-3">
+                                  <div class="col-12 col-lg-4" data-aos="fade-up" data-aos-duration="1500">
+                                      <img src="image/illustration/progress-1.png" alt="image not found" class="img-fluid">
+                                  </div>
+                                  <div class="col-12 col-lg-8" data-aos="fade-up" data-aos-duration="2000"
+                                 >
+                                      <h6 class="text-muted">Up to</h6>
+                                      <h3><span class="counter"> 25</span><span> %</span></h3>
+                                      <p>for Deposit</p>
+                                  </div>
+                              </div>
+                              <p class="text-muted">Papay offers various deposit offers in all international currencies with interest rate up to 25% for all regular clients.</p>
+                          </div>
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                    
+                </div>
+            </div>
+        </section><!--end-of-more-->
+        <section id="the">
+            <div class="container">
+                <div class="row pt-5 text-center text-white">
+                    <div class="vr mx-auto"></div>
+                    <div class="col-12">
+                      <div class="conntainer">
+                        <div class="row align-items-center">
+                          <div class="col-12 text-center p-5">
+                            <h3>The Best Banking Choice</h3>
+                            Since our foundation, we have been #1 banking institution for lots of individual and corporate customers, both in the USA and internationally. We provide our clients with a number of benefits.
+                        </div>
+                        <div class="col-12 col-md-4 pt-4">
+                            <div class="row">
+                                <div class="col-12 col-md-8 order-1 order-md-0">
+                                    <h5>Various Locations</h5>
+                                    <p class="pb-4">We have offices in many countries including the USA and the UK.</p>
+                                </div>
+                                <div class="col-12 col-md-4 img-hover">
+                                    <img src="image/illustration/icon-4-new.png" alt="image not found" class="img-fluid">
+                                </div>
+                                <div class="col-12 col-md-8">
+                                    <h5>Mobile Banking Apps</h5>
+                                    <p class="pb-4">Get instant access to your account on any device using our banking apps.</p>
+                                </div>
+                                <div class="col-12 col-md-4 img-hover">
+                                    <img src="image/illustration/icon-5-new.png" alt="image not found" class="img-fluid">
+                                </div>
+                                <div class="col-12 col-md-8">
+                                    <h5>24/7 Support</h5>
+                                    <p class="pb-4">Our Support team is always ready to help you solve any banking issues.</p>
+                                </div>
+                                <div class="col-12 col-md-4 img-hover">
+                                    <img src="image/illustration/icon-6-new.png" alt="image not found" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 d-none d-md-block">
+                            <img src="image/illustration/mockup-home.png" alt="image not found" class="img-fluid">
+                        </div>
+                        <div class="col-12 col-md-4 pt-4">
+                            <div class="row pt-4">
+                                <div class="col-12 col-md-4 img-hover">
+                                    <img src="image/illustration/icon-1-new.png" alt="image not found" class="img-fluid">
+                                </div>
+                                <div class="col-12 col-md-8 img-hover">
+                                    <h5>Family & Friends Programs</h5>
+                                    <p class="pb-4">Our Bank has special programs with benefits for family members.</p>
+                                </div>
+                                <div class="col-12 col-md-4 img-hover">
+                                    <img src="image/illustration/icon-2-new.png" alt="image not found" class="img-fluid">
+                                </div>
+                                <div class="col-12 col-md-8">
+                                    <h5>Personal Profile</h5>
+                                    <p class="pb-4">Register your free personal profile online to begin using our services.</p>
+                                </div>
+                                <div class="col-12 col-md-4 img-hover">
+                                    <img src="image/illustration/icon-3-new.png" alt="image not found" class="img-fluid">
+                                </div>
+                                <div class="col-12 col-md-8 ">
+                                    <h5>Easy Account Setup</h5>
+                                    <p class="pb-4">Registered clients can edit the banking account settings in 2 clicks.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 p-5 ">
+                            <button class="btn btn-dark rounded-pill hover fs-md-4 fw-bold"> View More Advantage</button>
+                        </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section><!--end-of-the-->
+        <section id="advantages" class="bg-light">
+            <div class="container">
+                <div class="row text-center pt-5 ">
+                    <div class="vr mx-auto"></div>
+                    <div class="col-12 p-5">
+                        <h3>Advantages and Details</h3>
+                        <small>We provide all our clients with various advantages that not only satisfy their banking needs but also allow them to get more without overpaying for banking service.</small>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 my-auto">
+                        <i class="bi bi-quote display-3"></i>
+                        <p>Papay, we aim to provide top quality banking serives to a great individual and corporate customer thar any other bank in the USA or abroad.</p>
+                        <small class="text-danger">Samuel Chapman</small>
+                        <small>CEO & Founder of Papay</small>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 pb-2">
+                        <div class="card h-100">
+                            <i class="bi bi-tv display-2 p-5"></i>
+                            <h5>Detailed Statistics</h5>
+                            <p>Our online banking resource provides free & detailed statistics to all Papay clients.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 pb-2">
+                        <div class="card h-100">
+                            <i class="bi bi-envelope-open display-2 p-5"></i>
+                            <h5>E-mail Newsletter</h5>
+                            <p>Subscribe to our newsletter and stay in the know of the latest financial and banking news.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 pb-2">
+                        <div class="card h-100">
+                            <i class="bi bi-graph-up-arrow display-2 p-5"></i>
+                            <h5>Financial Goals</h5>
+                            <p>Easily meet your financial goals with our affordable banking offers available regularly.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 p-md-5 pb-2">
+                        <img src="image/illustration/index-1-2-570x352.jpg" alt="image not found" class="img-fluid rounded-3">
+                    </div>
+                    <div class="col-12 col-lg-6 p-md-5 pb-2">
+                        <p>Papay was founded in 1999 to introduce the new level of financial services worldwide. We are still dedicated to the success of our clients.</p>
+                        <small>At Papay, we are guided by a common purpose to help make financial lives better by connecting clients and communities to the resource they need to be successful. We are driving growth – helping to create jobs, develop communities, foster economic mobility and address society’s biggest challenges – while managing risk and providing a return to our clients and our shareholders.</small>
+                        <button class="btn btn-dark d-block fs-5 fw-bold rounded-pill mx-auto m-4">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </section><!--end-of-advantages-->
+        <section id="testimonials">
+            <div class="container-fluid">
+                <div class="row text-center pt-5">
+                    <div class="vr mx-auto"></div>
+                    <div class="col-12">
+                        <h3 class="pb-5">Testimonials</h3>
+                    </div>
+                    <div class="col-12">
+                        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                            <!-- <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div> -->
+
+                              <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="10000">
+                                  <img src="image/illustration/index-1-5-220x220.jpg" alt="image not found" class="img-fluid border rounded-circle">
+                                  <!-- <div class="carousel-caption d-none d-md-block"> -->
+                                    <h5 class="text-danger">Ann Smith</h5>
+                                  <small>International Company Owner</small>
+                                  <p class="p-5">Finding Papay, a reliable bank with the international reputation and specialized lending programs allowed me to finance my business and open a new office in California. Thank You!</p>
+                                  <!-- </div> -->
+                                </div>
+                                <div class="carousel-item" data-bs-interval="2000">
+                                  <img src="image/illustration/index-1-4-220x220.jpg" alt="image not found" class="img-fluid border rounded-circle">
+                                  <!-- <div class="carousel-caption d-none d-md-block"> -->
+                                    <h5 class="text-danger">Marie Hanson</h5>
+                                  <small>Marie Hanson Charity Organization Manager</small>
+                                  <p class="p-5">I Chose Papay because I know they are share my values of putting community first. Not only do they make banking easy, I see them out volunteering and investing in our community.</p>
+                                  <!-- </div> -->
+                                </div>
+                                <div class="carousel-item">
+                                  <!-- <img src="..." class="d-block w-100" alt="...">
+                                  <div class="carousel-caption d-none d-md-block"> -->
+                                    <img src="image/illustration/index-1-3-220x220.jpg" alt="image not found" class="img-fluid border rounded-circle">
+                                    <h5 class="text-danger">Mildred Bates</h5>
+                                  <small>Jewelry Shop Owner</small>
+                                  <p class="p-5">When I needed financial assistance to expand my shop, I went directlyto Dot Bank. Securing financing helped us renovate and expand my jewelry shop and attract more clients</p>
+                                  <!-- </div> -->
+                                </div>
+                              </div>
+
+
+
+                           
+                            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button> -->
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </section><!--end-of-testimonials-->
+        <section id="latest">
+            <div class="container">
+                <div class="row text-white text-center">
+                  <div class="vr mx-auto"></div>
+                    <div class="col-12 p-5">
+                        <h3>Latest Statistical Information</h3>
+                        <small>Our Bank regularly compiles and publishes a range of monetary and financial statistics. These include domestic banking statistics, external finance statistics, and international banking statistics.</small>
+                    </div>
+                    <!-- <div class="col-6"> -->
+                      <!-- <div class="row"> -->
+                        <div class="col-12 col-md-6 pb-5" data-aos="fade-up" data-aos-duration="2500">
+                          <h2><span class=" counter"> 25</span><span>%</span></h2>
+                          <h5 class="pt-1">Economy</h5>
+                      </div>
+                      <div class="col-12 col-md-6 pb-5" data-aos="fade-up" data-aos-duration="2500">
+                        <h2 ><span class="counter">50</span><span>%</span></h2>
+                        <h5 class="pt-1">Cashback</h5>
+                      </div>
+                      <div class="col-12 col-md-6 pb-5" data-aos="fade-up" data-aos-duration="2500">
+                        <h2><span class="counter">75</span><span>%</span></h2>
+                        <h5 class="pt-1">Stability</h5>
+                    </div>
+                    <div class="col-12 col-md-6 pb-5" data-aos="fade-up" data-aos-duration="2500">
+                      <h2><span class="counter">100</span><span>%</span></h2>
+                      <h5 class="pt-1 ">Guarantee</h5>
+                    </div>
+                      <!-- </div> -->
+                    <!-- </div> -->
+                    <div class="col-12 pt-4">
+                      <p>Our financial services deeply rely on certain banking procedures that have been perfected over the years and helped us get prestigious awards.</p>
+                      <p>Financial Consulting</p>
+                      <p>Online Reporting</p>
+                      <p>Online Banking</p>
+                      <p>24/7 Support</p>
+                    </div>
+                </div>
+            </div>
+        </section><!--end-of-latest-->
+        <section id="choose">
+          <div class="container">
+            <div class="row p-5 text-center text-white">
+              <div class="col-12 col-md-6 pt-1">
+                <h2>Choose Your <b>Bank Card</b> Now!</h2>
+              </div>
+              <div class="col-12 col-md-6">
+                <button class="btn btn-dark fs-4 fw-bold rounded-pill">Order Card</button>
+              </div>
+            </div>
+          </div>
+        </section><!--end-of-choose-->
+        <section id="how">
+          <div class="container">
+            <div class="row text-center pt-5">
+              <div class="vr mx-auto"></div>
+              <div class="col-12">
+                <h2>How to Order a New Card</h2>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 p-3">
+                <div class="border rounded-pill display-1">
+                  <i class="bi bi-person-vcard-fill "></i>
+                </div>
+                
+                <h5 class="pt-3">Online Registration</h5>
+                <small>Everything starts with free online registration. Only basic data is needed – name, surname, age etc.</small>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 p-3">
+                <div class="display-1 border rounded-pill">
+                  <i class="bi bi-chat-right-text-fill "></i>
+                </div>
+                
+                <h5 class="pt-3">Filling Out a Form</h5>
+                <small>After the basic registration, you will need to fill out a form to help us determine your financial goals.</small>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3  p-3">
+                <div class=" display-1 border rounded-pill">
+                <i class="bi bi-fingerprint "></i>
+              </div>
+                <h5 class="pt-3">Signing an Agreement</h5>
+                <small>This stage concludes the procedure of opening an account at Dot Bank to start using your card.
+                </small>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 p-3">
+                <div class="border rounded-pill display-1">
+                <i class="bi bi-credit-card"></i>
+              </div>
+                <h5 class="pt-3">Using Your Card</h5>
+                <small>You can use your card to purchase the products you need open a secure deposit with lots of benefits</small>
+              </div>
+            </div>
+          </div>
+        </section><!--end-of-how-->
+        <section id="frequently">
+          <div class="container">
+            <div class="row text-white text-center pt-5">
+              <div class="vr mx-auto"></div>
+              <div class="col-12 p-5">
+                <h2>Frequently Asked Questions</h2>
+              </div>
+              <div class="col-12 col-lg-6 d-flex flex-wrap align-items-center">
+                <h5>What is the currency amount for the Blue Card?</h5>
+                <p>The minimum amount that can be loaded on the card is $100 or equivalent amount in other currency. The maximum amount would be as per Dot Bank guidelines applicable from time to time. You can learn more about it by contacting our consultants.</p>
+                <h5>What steps do I take if my card gets lost?</h5>
+                <p>If you lose your card please immediately contact our customer support center. If you are in the USA please call 1-800-22-6999, for other countries please call 0091-22- 66937000.</p>
+                <h5>Do I have to maintain any minimum balance?</h5>
+                <p>It depends on the card you choose. For example, if you pick an Orange Card, you get a special waiver on the minimum balance requirement.</p>
+              </div>
+              <div class="col-12 col-lg-6">
+                <h5>What kind of browser do I need for online banking?</h5>
+                <p>Our Banking System supports all browsers. Some of the most popular ones are Chrome, Opera, Firefox, and Safari. If you are using Internet Explorer make sure the version of your browser is 9.0 or higher.</p>
+                <h5>Can I make online payments to foreign recipients?</h5>
+                <p>Yes, you can! Our bank does not limit any payments to a certain country so whether you are using our online banking system or an app for your device, you can safely transfer any amount of money or purchase services and products.</p>
+                <h5>What security features does the mobile banking have?</h5>
+                <p>Mobile browser-based banking is very similar to PC based internet banking. The respective mobile handset browser replaces a PC browser to access the banking services. Some of the important security measures in place are 128 bit SSL from VeriSign, https:// based access, Intrusion detection system (IDS) etc.</p>
+              </div>
+              <div class="col-12 p-5">
+                <button class="btn btn-dark hover rounded-pill">View All Questions</button>
+              </div>
+            </div>
+          </div>
+        </section><!--end-of-frequently-->
+        <section id="Latest" class="bg-light">
+          <div class="container">
+            <div class="row pt-5 text-center">
+              <div class="vr mx-auto"></div>
+              <div class="col-12 p-5">
+                <h2>Latest Blog Posts</h2>
+                <small>Our team regularly publishes articles about banking & financial news as well as updates on special offers and tips from our consultants.</small>
+              </div>
+              <div class="col-12 col-lg-4 col-md-6 mt-2">
+                <div class="card overflow-hidden">
+                  <img src="image/illustration/single-post-1-770x472-370x260.jpg" class="card-img-top img-fluid" alt="image not found">
+                  <div class="card-body">
+                    <h4 class="card-text">7 Banking Services That Can Save Retirees Money</h4>
+                    <small class="card-text">December 7, 2018</small>
+                    <small class="card-text text-muted">Lorem ipsum dolor sit amet, qui tollit laoreet ocurreret id, ne vis melius offendit appetere, ius timeam percipit argumentum id.…</small>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-4 col-md-6 mt-2">
+                <div class="card overflow-hidden">
+                  <img src="image/illustration/blog-img-370x260.jpg" class="card-img-top img-fluid" alt="image not found">
+                  <div class="card-body">
+                    <h4 class="card-text">Wall Street Analysts Are Nailing It This Year</h4>
+                    <small class="card-text">December 7, 2018</small>
+                    <small class="card-text text-muted">Lorem ipsum dolor sit amet, qui tollit laoreet ocurreret id, ne vis melius offendit appetere, ius timeam percipit argumentum id.…</small>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-4 col-md-6 mx-auto mt-2">
+                <div class="card overflow-hidden">
+                  <img src="image/illustration/single-post-2-770x472-370x260.jpg" class="card-img-top img-fluid" alt="image not found">
+                  <div class="card-body">
+                    <h4 class="card-text">Stocks Could Surge Another 10% Between Now And 2018</h4>
+                    <small class="card-text">December 7, 2018</small>
+                    <small class="card-text text-muted">Lorem ipsum dolor sit amet, qui tollit laoreet ocurreret id, ne vis melius offendit appetere, ius timeam percipit argumentum id.…</small>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 text-center  p-5">
+                <button class="btn btn-dark hover rounded-pill">View All Blog Posts</button>
+              </div>
+            </div>
+          </div>
+        </section><!--end-of-Latest-->
+        <section id="subcribe">
+          <div class="container">
+            <div class="row pt-5 text-white">
+              <div class="col-12 col-lg-6 text-center">
+                <h3>Subscribe for <b>News and Updates</b></h3>
+              </div>
+              <div class="col-12 col-lg-6">
+                <div class="input-group mb-3 rounded-pill">
+                  <input type="email" class="form-control" placeholder="Enter Your Email" aria-label="Recipient's username" aria-describedby="button-addon2">
+                  <button class="btn btn-light" type="button" id="button-addon2"><i class="bi bi-envelope"></i></button> 
+                </div>
+              </div>
+            </div>
+          </div>
+        </section><!--end-of-subcribe-->
+        <section id="map">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-6">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.546467503238!2d-0.12209412409097894!3d51.50318971101186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604b900d26973%3A0x4291f3172409ea92!2slastminute.com%20London%20Eye!5e0!3m2!1sen!2ssg!4v1694544078280!5m2!1sen!2ssg" class="w-100" height="350" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+              <div class="col-12 col-md-6 my-auto text-center p-2">
+                <h4>Contact Information</h4>
+                <i class="bi bi-geo-alt d-block p-2">2130 Fulton Street, San Diego, CA 94117-1080 USA</i>
+                <a class=" text-decoration-none text-reset" href="tel:+18001234567"><i class="bi bi-telephone  p-2"></i>1-800-1234-567</a>
+                <a href="mailto:info@demolink.org" class=" d-block text-decoration-none text-reset"><i class="bi bi-envelope-fill p-2"></i>info@demolink.org</a>
+                <!-- <div class="icon"> -->
+                  <i class="bi bi-facebook text-secondary fs-4 p-2"></i>
+                  <i class="bi bi-twitter text-secondary fs-4 p-2"></i>
+                  <i class="bi bi-instagram text-secondary fs-4 p-2"></i>
+                  <i class="bi bi-linkedin text-secondary fs-4 p-2"></i>
+                  <i class="bi bi-browser-edge text-secondary fs-4 p-2"></i>
+                <!-- </div> -->
+              </div>
+              
+            </div>
+          </div>
+        </section><!--end-of-map-->
+        <section id="footer">
+          <div class="container">
+            <div class="row text-white pt-5">
+              <div class="col-12 col-md-3">
+                <img src="image/illustration/logo-home.png" alt="image not found" class="img-fluid">
+                <small>Papay establishment providing high-quality international banking services. Our success is attributed to our loyal customers</small>
+              </div>
+              <div class="col-12 col-md-3">
+                <h6>HEAD OFFICE</h6>
+                <ul class="list-unstyled">
+                  <li>4096 N Highland St, Arlington VA 32101, USA</li>
+                  <li><a href="mailto:info@company.com" class="text-decoration-none text-reset">info@company.com</a></li>
+                  <li><a href="tel:+1800 532587412" class="text-decoration-none text-reset">800 532587412</a></li>
+                  <li>MON-THU: 9:30 – 21:00</li>
+                  <li>FRI: 6:00 – 21:00</li>
+                  <li>FRI: 6:00 – 21:00</li>
+                </ul>
+
+              </div>
+              <div class="col-12 col-md-3">
+                <h6>LATEST POSTS</h6>
+                <ul class="list-unstyled">
+                  <li>7 Banking Services That Can Save Retirees Money</li>
+                  <small class="small">December 7, 2018</small>
+                  <li>Wall Street Analysts Are Nailing It This Year</li>
+                  <small class="small">December 7, 2018</small>
+                  <li>Stocks Could Surge Another 10% Between Now And 2018</li>
+                  <small class="small">December 7, 2018</small>
+                </ul>
+              </div>
+              <div class="col-12 col-md-3">
+                <h6>QUICK LINKS</h6>
+                <ul class="list-unstyled">
+                  <li class="active">Home</li>
+                  <li>About</li>
+                  <li>Services</li>
+                  <li>Pricing</li>
+                  <li>Contacts</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section><!--end-of-footer-->
+        <section id="copy">
+          <div class="container">
+            <div class="row text-center p-3">
+              <div class="col-12">
+                <small>Copyright &copy; 2023 <span class="text-danger">MK</span>. All Rights Reserved </small>
+                <!-- <a href="#carousel"><i class="bi bi-chevron-double-up fs-1 text-end fixed-bottom"></i></a> -->
+                
+              </div>
+              <div class="col-12 fixed-bottom  text-end">
+                <a href="#carousel"><i class="bi bi-chevron-double-up fs-1 "></i></a>
+              </div>
+            </div>
+          </div>
+        </section><!--end-of-copy-->
+    </section><!--end-of-container-fluid-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="../JS/jquery.counterup.min.js"></script>
+    <script src="../JS/jquery.waypoints.min.js"></script>
+    <script>
+      $(function () {
+          $('.counter').counterUp({
+              delay: 100,
+              time: 3000
+          });
+      });
+  </script>
+   <script>
+    $(window).on('scroll',function(){
+      if ($(window).scrollTop()){
+        $('header').addClass('white');
+      }
+      else{
+        $('header').removeClass('white');
+      }
+    })
+  </script>
+  </body>
+</html>

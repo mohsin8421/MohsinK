@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/MohsinK/Projects/MMOBOMB/static/css/main.45dbad40.css",
+    "main.js": "/MohsinK/Projects/MMOBOMB/static/js/main.5a6b0c39.js",
+    "static/media/801.jpg": "/MohsinK/Projects/MMOBOMB/static/media/801.1bc6971112569dd84b2b.jpg",
+    "static/media/header-bomb.png": "/MohsinK/Projects/MMOBOMB/static/media/header-bomb.f733b87da57be177f6aa.png",
+    "static/media/WHITE-BOMB-removebg-preview.png": "/MohsinK/Projects/MMOBOMB/static/media/WHITE-BOMB-removebg-preview.67677bc1c4033957b91d.png",
+    "index.html": "/MohsinK/Projects/MMOBOMB/index.html",
+    "main.45dbad40.css.map": "/MohsinK/Projects/MMOBOMB/static/css/main.45dbad40.css.map",
+    "main.5a6b0c39.js.map": "/MohsinK/Projects/MMOBOMB/static/js/main.5a6b0c39.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45dbad40.css",
+    "static/js/main.5a6b0c39.js"
+  ]
+}
