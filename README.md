@@ -1,1 +1,920 @@
-# MohsinK
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio|MohsinK</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="icon" href="Image/background/mk.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="style1.css"> -->
+  </head>
+  <body>
+    
+    <section class="container-fluid g-0 main">
+      
+      <!-- <label><input class="bubble" type="checkbox" name="dummy" value="on"></label> -->
+      <header id="nav" class="sticky-top">
+        <div class="container-fluid">
+          <div class="row align-items-center">
+            <div class="col-12">
+              
+            <!-- </div> -->
+            <!-- <div class="col-10"> -->
+              <nav class="navbar navbar-expand-lg justify-content-end ">
+                
+                <div class="container-fluid">
+                  <img src="Image/background/mk.png" alt="image not found" class="img-fluid m-2 icons">
+                    
+                  
+                  <button class="navbar-toggler btn btn-three nav navbar-dark colors" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- <ul class="snip1474">
+                      <li class="current"><a href="#" data-hover="Home">Home</a></li>
+                      <li><a href="#" data-hover="About Us">About Us</a></li>
+                      <li><a href="#" data-hover="Blog">Blog</a></li>
+                      <li><a href="#" data-hover="Services">Services</a></li>
+                      <li><a href="#" data-hover="Products">Products</a></li>
+                      <li><a href="#" data-hover="Contact">Contact</a></li>
+                    </ul> -->
+                    <ul class="ms-auto navbar-nav colors">
+                      <li class="btn btn-three m-2 nav-item">
+                        <a href="#particle-container" class="text-decoration-none text-light">HOME</a>
+                      </li>
+                      <li class="btn btn-three m-2 nav-item">
+                        <a href="#about" class="text-decoration-none text-light">ABOUT</a>
+                      </li>
+                      <li class="btn btn-three m-2 nav-item">
+                        <a href="#timelinesection" class="text-decoration-none text-light">EDUCATION</a>
+                      </li>
+                      <li class="btn btn-three m-2 nav-item">
+                        <a href="#skill bar" class="text-decoration-none text-light">SKILLS</a>
+                      </li>
+                      <li class="btn btn-three m-2 nav-item">
+                        <a href="#m5" class="text-decoration-none text-light">PROJECTS</a>
+                      </li>
+                      <li class="btn btn-three m-2 nav-item">
+                        <a href="#footer" class="text-decoration-none text-light">CONTACT</a>
+                      </li>
+                    </ul>
+                    
+                  </div>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </header><!--end-of-nav-->
+      <!-- <section id="try">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <div class="box">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus earum, iure, omnis at, ea dignissimos blanditiis voluptatum harum recusandae quas beatae ipsam. Tenetur vel dolores repudiandae provident odio, suscipit quibusdam.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </section> -->
+      <section class="animations" id="particle-container">
+        <div class="container-fluid">
+          <div class="row align-items-center text-center">
+            <div class="col-12 col-md-6 ">
+              <img src="Image/background/31756129_2203.i201.050.F.m004.c9.modern_futre_professions_isometric-removebg-preview-min.png" alt="image not found" class="img-fluid">
+            </div>
+            <div class="col-12 col-md-6  colors">
+              <!-- <div class="row"> -->
+                <!-- <div class="col-12"> -->
+                  <h2 class="title mx-auto">Hello! I Am</h2>
+                  <h2 class="title">KHATIK MOHSIN</h2>
+                <!-- </div> -->
+                <!-- <div class="col-12"> -->
+                  <h4 class="text_1 title"><span >JAVA Fullstack</span></h4>
+                  <br>
+                  <h4 class="text_2 title"><span> Web Developer</span></h4>
+            </div>
+           
+            <div class="col-12 pb-2">
+              <div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+  <!-- <div class="m1" id="try1"></div>
+                <div class="m1" id="try2"></div>
+                <div class="m1" id="try3"></div>
+                <div class="m1" id="try4"></div>
+                <div class="m1" id="try5"></div>
+                <div class="m1" id="try6"></div>
+                <div class="m1" id="try7"></div>
+                <div class="m1" id="try8"></div>
+                <div class="m1" id="try9"></div>
+                <div class="m1" id="try10"></div> -->
+        <div class="animations-container">
+          <div class="ani ani-6">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1024 1024">
+              <path id="followPath" d="M394.1-214.9c-49.7,89.4,114.4,192.8,175.5,475.1c13,60.1,85.4,424-98.1,552.6 c-95.7,67-267.2,74.5-346.3-22.1c-70.8-86.5-49-233.9,19.2-305.2c102.4-107,353.9-89.1,593.2,96.5c139.6,107,294.1,258.4,415,468.6 c19.2,33.5,36.6,66.6,52.3,99.3c13,8.6,34,19.5,53.3,13.2c148-48.6,165.1-1094.5-338.5-1374.8C723.7-320.8,449-313.8,394.1-214.9z"></path>
+              <path id="dashedPath" d="M394.1-214.9c-49.7,89.4,114.4,192.8,175.5,475.1c13,60.1,85.4,424-98.1,552.6 c-95.7,67-267.2,74.5-346.3-22.1c-70.8-86.5-49-233.9,19.2-305.2c102.4-107,353.9-89.1,593.2,96.5c139.6,107,294.1,258.4,415,468.6 c19.2,33.5,36.6,66.6,52.3,99.3c13,8.6,34,19.5,53.3,13.2c148-48.6,165.1-1094.5-338.5-1374.8C723.7-320.8,449-313.8,394.1-214.9z"></path>
+              <path id="airplain" d="M8.04 84L92 48 8.04 12 8 40l60 8-60 8z">
+                <animateMotion xlink:href="#airplain" dur="6s" fill="freeze" repeatCount="indefinite" rotate="auto">
+                  <mpath xlink:href="#followPath"></mpath>
+                </animateMotion>
+              </path>
+            </svg>
+          </div>
+          
+        </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!-- <section id="nav">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <nav class="navbar navbar-expand-lg g-0">
+                <div class="container-fluid">
+                  <img src="image/illustration/sierra_business.svg" alt="image not found" class="img-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav pt-2">
+                      <li class="nav-item m-2">
+                        <a class="nav-link active text-white btn btn-three" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li><hr></li>
+                      <li class="nav-item m-2">
+                        <a href="#" class="nav-link btn btn-three" href="#">About</a>
+                      </li>
+                      <li><hr></li>
+                      <li class="nav-item m-2">
+                        <a class="nav-link btn btn-three" href="#">Products</a>
+                      </li>
+                      <li><hr></li>
+                      <li class="nav-item m-2">
+                        <a class="nav-link btn btn-three" href="#">Projects</a>
+                      </li>
+                      <li><hr></li>
+                      <li class="nav-item m-2">
+                        <a class="nav-link btn btn-three" href="#">contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+        </div>
+      </div>
+    </section>end of nav -->
+
+
+
+
+
+
+
+      
+      <section id="about">
+        <div class="container">
+          <div class="row text-center align-items-center">
+            <div class="col-12 p-5">
+              <h2 class="text-white" data-aos="fade-up">About ME</h2>
+            </div>
+            <div class="col-12 col-lg-6 pb-4 pb-lg-0">
+              <p >"Hello I am <b>Khatik Mohsin</b> a talented and passionate web developer who possesses a unique blend of technical expertise and creativity. With a deep understanding of the latest web technologies and trends.</p>
+              <p >Beyond technical skills, I am a proactive and collaborative team player, accustomed to working in agile environments and effectively communicating with clients, designers, and fellow developers.</p>
+              <p >With a strong dedication to delivering high-quality solutions and a passion for creating exceptional web experiences, I am a valuable asset to any web development project.</p>
+              <!-- <button class="btn btn-outline-success">Resume</button> -->
+              <!-- <div class="box-3">
+                <div class="btn skew">
+                  <span>Resume</span>
+                </div>
+              </div> -->
+              <a href="./Resume/MohsinKhatik-Resume.pdf" target="_blank" class="resume text-light">
+                <!-- <span></span>
+                <span></span>
+                <span></span>
+                <span></span> -->
+                Resume
+            </a>
+
+              
+            </div>
+            <!-- <div class="col-12 col-lg-6">
+              <img src="businessman-with-laptop-sitting-on-the-floor-in-yoga-lotus-position-4559331-3784300-removebg-preview.png" alt="image not found" class="img-fluid">
+            </div> -->
+            <div class="col-12 col-lg-6 bg-img">
+          </div>
+        </div>
+      </section><!--end of about-->
+      <section class="timeline line pt-5" id="timelinesection">
+        <div class="container-fluid">
+          <div class="row text-center">
+            <div class="col-12 ms-3 p-5">
+              <h2 class="text-white text-center" data-aos="fade-up">Education</h2>
+            </div>
+            <div class="col-12">
+            <ul>
+              <li>
+                <div>
+                  <time>2024</time>
+                  <div class="discovery">
+                    <h1>Java FullStack Developer</h1>
+                    <p>
+                      Envision Computer Training Institute (ECTI), Pune.
+                    </p>
+                  </div>
+                  <!-- <div class="scientist">
+                    <h1>Scientist</h1>
+                    <span>Newton</span>
+                  </div> -->
+                </div>
+              </li>
+              <li>
+                <div>
+                  <time>2020</time>
+                  <div class="discovery">
+                    <h3>Diploma In
+                      Mechanical Engineering</h3>
+                    <p>
+                      Nikam Polytechnic, Dhule.
+                    </p>
+                  </div>
+                  <!-- <div class="scientist">
+                    <h1>Scientist</h1>
+                    <span>Coulomb</span>
+                  </div> -->
+                </div>
+              </li>
+              <li>
+                <div>
+                  <time>2016</time>
+                  <div class="discovery">
+                    <h1>Hsc</h1>
+                    <p>
+                      L.M Sardar Urdu High Scoohl, Dhule.
+                    </p>
+                  </div>
+                  <!-- <div class="scientist">
+                    <h1>Scientist</h1>
+                    <span>G.S Ohm</span>
+                  </div> -->
+                </div>
+              </li>
+              <li>
+                <div>
+                  <time>2014</time>
+                  <div class="discovery">
+                    <h1>Ssc</h1>
+                    <p>
+                      L.M Sardar Urdu High Scoohl, Dhule.
+                    </p>
+                  </div>
+                  <!-- <div class="scientist">
+                    <h1>Scientist</h1>
+                    <span>Michael Faraday</span>
+                  </div> -->
+                </div>
+              </li>
+
+
+
+              
+
+
+
+            </ul>
+          </div>
+        </div>
+        </div>    
+      </section><!--end 0f timeline-->
+      
+
+      <section id="skill bar">
+        <div class="container">
+
+        
+        <div class="row m-auto py-3 contentskill text-center" id="skillss">
+
+          <div class="col-12">
+            <h2 class="text-white text-center" data-aos="fade-up">SKILLS</h2>
+          </div>
+         
+          <div class="col-12 col-md-6 col-lg-4 ">
+            <div class="cardsbar mb-3">
+                <div class="icon"  data-aos="flip-left" data-aos-duration="3000"> 
+                  <h3><span class="counter"> 90</span><span>%</span></h3>
+                </div>
+                <p class="title">HTML</p>
+                <span>
+                  <!-- <i class="bi bi-filetype-html" ></i> -->
+                  <img src="./Image/illustration/html.183x256.png" alt="image not found" class="img-fluid text">
+                </span>
+                </div>
+               </div>
+
+          <div class="col-12 col-md-6 col-lg-4 ">
+            <div class="cardsbar mb-3">
+            <div class="icon" data-aos="flip-right" data-aos-duration="3000"> 
+              <h3><span class="counter"> 90</span><span>%</span></h3>
+               </div>
+               <p class="title">CSS</p>
+               <span>
+                <!-- <i class="fab fa-html5"></i> -->
+                <img src="./Image/illustration/css3-original-wordmark.183x256.png" alt="image not found" class="img-fluid text">
+              </span>
+                </div>
+                  </div>
+
+              <div class="col-12 col-md-6 col-lg-4 ">
+                <div class="cardsbar mb-3">
+                   <div class="icon" data-aos="flip-left" data-aos-duration="3000"> 
+                    <h3><span class="counter"> 90</span><span>%</span></h3>
+                  </div>
+                  <p class="title">Bootstrap</p>
+                  <span>
+                    <!-- <i class="fab fa-bootstrap"></i> -->
+                    <img src="./Image/illustration/bootstrap.256x256.png" alt="image not found" class="img-fluid text">
+                  </span>
+                  </div>              
+                     </div>
+
+                <div class="col-12 col-md-6 col-lg-4 ">
+                  <div class="cardsbar mb-3">
+                    <div class="icon" data-aos="flip-right" data-aos-duration="3000"> 
+                      <h3><span class="counter"> 70</span><span>%</span></h3>
+                    </div>
+                    <p class="title">Javascript</p>
+                    <span>
+                      <!-- <i class="fab fa-js"></i> -->
+                      <img src="./Image/illustration/javascript.256x256.png" alt="image not found" class="img-fluid text">
+                    </span>
+                   </div>
+                      </div>
+               
+                 <div class="col-12 col-md-6 col-lg-4 ">
+                   <div class="cardsbar mb-3">
+                    <div class="icon" data-aos="flip-left" data-aos-duration="3000"> 
+                      <h3><span class="counter"> 70</span><span>%</span></h3>
+                    </div>
+                    <p class="title">jQuery</p>
+                    <span>
+                      <!-- <i class="fab fa-java"></i> -->
+                      <img src="./Image/illustration/jquery-plain-wordmark.241x256.png" alt="image not found" class="img-fluid text">
+                    </span>
+                  </div>
+                      </div>
+
+
+              <div class="col-12 col-md-6 col-lg-4 ">
+                <div class="cardsbar  mb-3">
+                   <div class="icon" data-aos="flip-right" data-aos-duration="3000"> 
+                    <h3><span class="counter"> 75</span><span>%</span></h3>
+                  </div>
+                  <p class="title">React js</p>
+                  <span>
+                    <!-- <i class="fab fa-react"></i> -->
+                    <img src="./Image/illustration/react.256x228.png" alt="image not found" class="img-fluid text">
+                  </span>
+                     </div>
+                   </div>
+
+                <div class="col-12 col-md-6 col-lg-4 ">
+                    <div class="cardsbar mb-3">
+                     <div class="icon" data-aos="flip-left" data-aos-duration="3000"> 
+                       <h3><span class="counter"> 70</span><span>%</span></h3>
+                     </div>
+                     <p class="title">Core Java</p>
+                     <span>
+                      <!-- <i class="fab fa-java"></i> -->
+                      <img src="./Image/illustration/java-original.189x256.png" alt="image not found" class="img-fluid text">
+                    </span>
+                   </div>
+                       </div>  
+                  
+                <div class="col-12 col-md-6 col-lg-4 ">
+                   <div class="cardsbar  mb-3">
+                      <div class="icon" data-aos="flip-right" data-aos-duration="3000"> 
+                        <h3><span class="counter"> 70</span><span>%</span></h3>
+                          </div>
+                          <p class="title">Advanced Java(Jsp & Servlete)</p>
+                          <!-- <span class="text fs-5"><i class="fab fa-java"></i></span> -->
+                          <span>
+                            <img src="./Image/illustration/java-original-wordmark.139x256.png" alt="image not found" class="img-fluid text">
+                          </span>
+                             </div>
+                           </div>
+                       
+                  <div class="col-12 col-md-6 col-lg-4 ">
+                      <div class="cardsbar mb-3">
+                        <div class="icon" data-aos="flip-left" data-aos-duration="3000"> 
+                          <h3><span class="counter"> 75</span><span>%</span></h3>
+                         </div>
+                         <p class="title">Java Frameworks(Springboot & Hibernate)</p>
+                         <!-- <span class="text fs-5"><i class="fab fa-java"></i></span> -->
+                         <span>
+                          <img src="./Image/illustration/spring.256x256.png" alt="image not found" class="img-fluid text">
+                         </span>
+                       </div>
+                           </div>       
+
+                </div>
+               </div>  <!--end of skill-->
+      </section><!--end of skill bar-->
+
+      <section id="try">
+        
+      </section>
+
+
+
+
+      <section class="hero pb-5" id="m5">
+        <div class="container hero-card">
+          <div class="row text-center">
+            <div class="col-12 p-5">
+              <h2 class="text-white" data-aos="fade-up">My Projects</h2>
+            </div>
+              <div class="col-lg-4 pt-lg-5">
+                  <div class="card mb-3">
+                      <div class="face front-face">
+                          <img src="Image/illustration/Wedding.png"
+                              alt="iamge not found" class="profile img-fluid rounded">
+                          
+                      </div>
+                      <div class="face back-face">
+                          <!-- <span class="fas fa-quote-left"></span> -->
+                          <div class="pt-3 text-uppercase">
+                            <b>Wedding</b>
+                        </div>
+                        <!-- <div class="designation">Android Developer</div> -->
+                          <div class="testimonial colors">
+                            <p>HTML/CSS/BOOTSTRAP/JS</p>
+                        </div>
+                        <div class="box-3">
+                          <div class="btn skew  colors">
+                            <a href="./Projects/Bootstrap Wedding/index.html" target="_blank" class="text-decoration-none text-light">View</a>
+                          </div>
+                        </div>
+                          <!-- <span class="fas fa-quote-right"></span> -->
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 pt-lg-5">
+                  <div class="card mb-3">
+                      <div class="face front-face">
+                          <img src="Image/illustration/bike.jpg"
+                              alt="image not found" class="profile img-fluid rounded">
+                          
+                      </div>
+                      <div class="face back-face ">
+                          <!-- <span class="fas fa-quote-left"></span> -->
+                          <div class="pt-3 text-uppercase">
+                            <b>Bike</b>
+                        </div>
+                        <!-- <div class="designation">Finance Director</div> -->
+                          <div class="testimonial  colors">
+                            <p>HTML/CSS/BOOTSTRAP/JS</p>
+                        </div>
+                        <div class="box-3">
+                          <div class="btn skew colors ">
+                            <a href="./Projects/Bootstrap Bike/index.html" target="_blank" class="text-decoration-none text-light">View</a>
+                          </div>
+                        </div>
+                          <!-- <span class="fas fa-quote-right"></span> -->
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 pt-lg-5">
+                  <div class="card mb-3">
+                      <div class="face front-face">
+                          <img src="Image/illustration/Photography.png"
+                              alt="image not found" class="profile img-fluid rounded">
+                          
+                      </div>
+                      <div class="face back-face">
+                        <div class="pt-3 text-uppercase">
+                          <b>Photography</b>
+                      </div>
+                      <!-- <div class="designation">Finance Director</div> -->
+                          <!-- <span class="fas fa-quote-left"></span> -->
+                          <div class="testimonial colors">
+                              <p>HTML/CSS/BOOTSTRAP/JS</p>
+                          </div>
+                          <div class="box-3">
+                            <div class="btn skew colors">
+                              <a href="./Projects/Bootstrap Photography/index.html" target="_blank" class="text-decoration-none text-light">View</a>
+                            </div>
+                          </div>
+                          <!-- <span class="fas fa-quote-right"></span> -->
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-4 pt-lg-5">
+                <div class="card mb-3">
+                    <div class="face front-face">
+                        <img src="Image/illustration/Vegetable.png"
+                            alt="image not found" class="profile img-fluid rounded">
+                        
+                    </div>
+                    <div class="face back-face">
+                      <div class="pt-3 text-uppercase">
+                        <b>Vagetable</b>
+                    </div>
+                    <!-- <div class="designation">Finance Director</div> -->
+                        <!-- <span class="fas fa-quote-left"></span> -->
+                        <div class="testimonial colors">
+                            <p>HTML/CSS/BOOTSTRAP/JS</p>
+                        </div>
+                        <div class="box-3">
+                          <div class="btn skew colors">
+                            <a href="./Projects/Bootstrap Vegetable/index1.html" target="_blank" class="text-decoration-none text-light">View</a>
+                          </div>
+                        </div>
+                        <!-- <span class="fas fa-quote-right"></span> -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 pt-lg-5">
+              <div class="card mb-3">
+                  <div class="face front-face">
+                      <img src="Image/illustration/bank.png"
+                          alt="image not found" class="profile img-fluid rounded">
+                      
+                  </div>
+                  <div class="face back-face">
+                    <div class="pt-3 text-uppercase">
+                      <b>Bank</b>
+                  </div>
+                  <!-- <div class="designation">Finance Director</div> -->
+                      <!-- <span class="fas fa-quote-left"></span> -->
+                      <div class="testimonial colors">
+                          <p>HTML/CSS/BOOTSTRAP/JS</p>
+                      </div>
+                      <div class="box-3">
+                        <div class="btn skew colors">
+                          <a href="./Projects/BootStrap New Bank/index.html" target="_blank" class="text-decoration-none text-light">View</a>
+                        </div>
+                      </div>
+                      <!-- <span class="fas fa-quote-right"></span> -->
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4 pt-lg-5">
+            <div class="card mb-3">
+                <div class="face front-face">
+                    <img src="Image/illustration/Industries.png"
+                        alt="image not found" class="profile img-fluid rounded">
+                    
+                </div>
+                <div class="face back-face">
+                    <div class="pt-3 text-uppercase">
+                      <b>Industry</b>
+                  </div>
+                    <div class="testimonial colors">
+                        <p>HTML/CSS/BOOTSTRAP/JS</p>
+                    </div>
+                    <div class="box-3">
+                      <div class="btn skew colors">
+                        <a href="./Projects/BootStrap Sierra Pagination/index.html" target="_blank" class="text-decoration-none text-light">View</a>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 pt-lg-5">
+          <div class="card mb-3">
+              <div class="face front-face">
+                  <img src="Image/illustration/slider5-mobile.2bdfd404ecc637517c31.jpg"
+                      alt="image not found" class="profile img-fluid rounded">
+                  
+              </div>
+              <div class="face back-face">
+                  <div class="pt-3 text-uppercase">
+                    <b>Orfarm</b>
+                </div>
+                  <div class="testimonial colors">
+                      <p>HTML/CSS/BOOTSTRAP/JS/REACT</p>
+                  </div>
+                  <div class="box-3">
+                    <div class="btn skew colors">
+                      <a href="./Projects/Orfarm/index.html" target="_blank" class="text-decoration-none text-light">View</a>
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+
+      <div class="col-lg-4 pt-lg-5">
+        <div class="card mb-3">
+            <div class="face front-face">
+                <img src="Image/illustration/801.jpg"
+                    alt="image not found" class="profile img-fluid rounded">
+                
+            </div>
+            <div class="face back-face">
+                <div class="pt-3 text-uppercase">
+                  <b>MMOBOMB</b>
+              </div>
+                <div class="testimonial colors">
+                    <p>HTML/CSS/BOOTSTRAP/JS/REACT</p>
+                </div>
+                <div class="box-3">
+                  <div class="btn skew colors">
+                    <a href="./Projects/MMOBOMB/index.html" target="_blank" class="text-decoration-none text-light">View</a>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+          </div>
+      </div>
+      </section><!--end of hero-->
+      <section id="contact" class="bg-dark">
+        <div class="container">
+          <div class="row ">
+            <div class="col-12 colors p-5 text-center">
+              <h4>CONTACT</h4>
+              <p>Are you interested in working together on a project? If so, I would be more than happy to lend you my expertise and support! Whether you need assistance with development, problem-solving, or any related matters, I'm here to help. You can easily reach me through the following channels:</p>
+            </div>
+          </div>
+        </div>
+      </section><!--end of contact-->
+     
+
+      <section id="footer">
+        <div class="container-fluid">
+          <div class="row align-items-center text-center bg-dark">
+
+          <div class="col-12">
+            <span id="f111" class="style-footer text-center d-block d-md-none"></span>
+            <span id="f211" class="style-footer text-center d-block d-md-none"></span>
+            <span id="f311" class="style-footer text-center d-block d-md-none"></span>
+            <span id="f411" class="style-footer text-center d-block d-md-none"></span>
+
+            <span id="f1" class="style-footer text-center"></span>
+            <span id="f2" class="style-footer text-center"></span>
+            <span id="f3" class="style-footer text-center"></span>
+            <span id="f4" class="style-footer text-center"></span>
+            <span id="f5" class="style-footer d-none d-md-block"></span>
+            <span id="f6" class="style-footer d-none d-md-block"></span>
+            <span id="f7" class="style-footer d-none d-md-block"></span>
+            <span id="f8" class="style-footer d-none d-md-block"></span>
+            <span id="f9" class="style-footer d-none d-md-block"></span>
+            <span id="f10" class="style-footer d-none d-md-block"></span>
+            <span id="f11" class="style-footer d-none d-md-block"></span>
+            <span id="f12" class="style-footer d-none d-md-block"></span>
+            <span id="f13" class="style-footer d-none d-md-block"></span>
+            <span id="f14" class="style-footer d-none d-lg-block"></span>
+            <span id="f15" class="style-footer d-none d-lg-block"></span>
+            <span id="f16" class="style-footer d-none d-lg-block"></span>
+            <span id="f17" class="style-footer d-none d-lg-block"></span>
+            <span id="f18" class="style-footer d-none d-lg-block"></span>
+            <span id="f19" class="style-footer d-none d-lg-block"></span>
+            <span id="f20" class="style-footer d-none d-lg-block"></span>
+            <span id="f21" class="style-footer d-none d-lg-block"></span>
+            <span id="f22" class="style-footer d-none d-lg-block"></span>
+            <span id="f23" class="style-footer d-none d-lg-block"></span>
+            <span id="f24" class="style-footer d-none d-lg-block"></span>
+            <span id="f25" class="style-footer d-none d-lg-block"></span>
+
+
+            <span id="f01" class="style-footer"></span>
+            <span id="f02" class="style-footer"></span>
+            <span id="f03" class="style-footer"></span>
+            <span id="f04" class="style-footer"></span>
+            <span id="f05" class="style-footer d-none d-md-block"></span>
+            <span id="f06" class="style-footer d-none d-md-block"></span>
+            <span id="f07" class="style-footer d-none d-md-block"></span>
+            <span id="f08" class="style-footer d-none d-md-block"></span>
+            <span id="f09" class="style-footer d-none d-md-block"></span>
+            <span id="f010" class="style-footer d-none d-md-block"></span>
+            <span id="f011" class="style-footer d-none d-md-block"></span>
+            <span id="f012" class="style-footer d-none d-md-block"></span>
+            <span id="f013" class="style-footer d-none d-md-block"></span>
+            <span id="f014" class="style-footer d-none d-lg-block"></span>
+            <span id="f015" class="style-footer d-none d-lg-block"></span>
+            <span id="f016" class="style-footer d-none d-lg-block"></span>
+            <span id="f017" class="style-footer d-none d-lg-block"></span>
+            <span id="f018" class="style-footer d-none d-lg-block"></span>
+            <span id="f019" class="style-footer d-none d-lg-block"></span>
+            <span id="f020" class="style-footer d-none d-lg-block"></span>
+            <span id="f021" class="style-footer d-none d-lg-block"></span>
+            <span id="f022" class="style-footer d-none d-lg-block"></span>
+            <span id="f023" class="style-footer d-none d-lg-block"></span>
+            <span id="f024" class="style-footer d-none d-lg-block"></span>
+            <span id="f025" class="style-footer d-none d-lg-block"></span>
+
+
+
+            <span id="f001" class="style-footer"></span>
+            <span id="f002" class="style-footer"></span>
+            <span id="f003" class="style-footer"></span>
+            <span id="f004" class="style-footer"></span>
+            <span id="f005" class="style-footer d-none d-md-block"></span>
+            <span id="f006" class="style-footer d-none d-md-block"></span>
+            <span id="f007" class="style-footer d-none d-md-block"></span>
+            <span id="f008" class="style-footer d-none d-md-block"></span>
+            <span id="f009" class="style-footer d-none d-md-block"></span>
+            <span id="f0010" class="style-footer d-none d-md-block"></span>
+            <span id="f0011" class="style-footer d-none d-md-block"></span>
+            <span id="f0012" class="style-footer d-none d-md-block"></span>
+            <span id="f0013" class="style-footer d-none d-md-block"></span>
+            <span id="f0014" class="style-footer d-none d-lg-block"></span>
+            <span id="f0015" class="style-footer d-none d-lg-block"></span>
+            <span id="f0016" class="style-footer d-none d-lg-block"></span>
+            <span id="f0017" class="style-footer d-none d-lg-block"></span>
+            <span id="f0018" class="style-footer d-none d-lg-block"></span>
+            <span id="f0019" class="style-footer d-none d-lg-block"></span>
+            <span id="f0020" class="style-footer d-none d-lg-block"></span>
+            <span id="f0021" class="style-footer d-none d-lg-block"></span>
+            <span id="f0022" class="style-footer d-none d-lg-block"></span>
+            <span id="f0023" class="style-footer d-none d-lg-block"></span>
+            <span id="f0024" class="style-footer d-none d-lg-block"></span>
+            <span id="f0025" class="style-footer d-none d-lg-block"></span>
+            
+          </div>
+
+
+          <div class="col-12 col-md-6 col-lg-4 mx-auto">
+            <img src="Image/illustration/Location-2.gif" alt="image not found" class="img-fluid w-25">
+            <h5 class="pb-3"><a href="https://maps.app.goo.gl/FZ8LvV4NnVT3qXTe8" class="text-decoration-none text-light colors">Ek Vira Devi Road,Deopur-424002. Dhule</a></h5>
+            <a class="btn btn-outline-danger resume text-light" href="https://maps.app.goo.gl/FZ8LvV4NnVT3qXTe8">Show On Map</a>
+          </div>
+          <!-- <div class="col-3 col-md-2 col-lg-2">
+            <img src="Image/illustration/Location-2.gif" alt="image not found" class="img-fluid">
+          </div>
+          <div class="col-9 col-md-4 col-lg-2">
+            <h2>Address</h2>
+            <span>Ek Vira Devi Road, Deopur-424002. Dhule</span>
+          </div> -->
+          <div class="col-12 col-md-6 col-lg-4 mx-auto small-letter">
+            <img src="Image/illustration/Email-2.gif" alt="image not found" class="img-fluid w-25">
+            <h5 class="pb-3"><a href="mailto:mohsin842123@gmail.com" class="text-decoration-none colors text-light">mohsin842123@gmail.com</a></h5>
+            <a class="btn btn-outline-danger resume text-light" href="mailto:mohsin842123@gmail.com">Send A Mail</a>
+          </div>
+          <!-- <div class="col-3 col-md-2 col-lg-2">
+            <img src="Image/illustration/Email-2.gif" alt="image not found" class="img-fluid">
+          </div>
+          <div class="col-9 col-md-4 col-lg-2">
+            <a href="mailto:mohsin842123@gmail.com">mohsin842123@gmail.com</a>
+          </div> -->
+          <div class="col-12 col-md-6 col-lg-4 mx-auto">
+            <img src="Image/illustration/Contact-2.gif" alt="image not found" class="img-fluid w-25">
+            <h5 class="pb-3"><a href="tel:+918421238672" class="text-decoration-none colors text-light">+918421238672</a></h5>
+            <!-- <div class="box-3"> -->
+              <!-- <div class="btn colors"> -->
+                <a class="btn btn-outline-danger resume text-light" href="tel:+918421238672">Call Me</a>
+              <!-- </div> -->
+            <!-- </div> -->
+          </div>
+          <!-- <div class="col-3 col-md-2 col-lg-2">
+            <img src="Image/illustration/Contact-2.gif" alt="image not found" class="img-fluid w-50">
+          </div>
+          <div class="col-9 col-md-4 col-lg-2">
+            <a href="tel:+918421238672">+918421238672</a>
+          </div> -->
+          <div class="col-12 text-center mt-5 mb-5">
+            
+                <a href="https://wa.me/+918421238672" class="bi bi-whatsapp text-light p-2 fs-1 resume"></a>
+                
+                
+              
+                <a href="" class="bi bi-linkedin p-2 fs-1 resume text-light"></a>
+              
+                <a href="mailto:mohsin842123@gmail.com" class="bi bi-envelope-at text-light p-2 fs-1 resume"></a>
+              <!-- </div>
+            </div> -->
+          </div>
+          
+          </div>
+        </div>
+        </section><!--end of footer-->
+
+        <section id="copyright" class="pt-3">
+          <div class="container-fluid">
+            <div class="row pb-5">
+              <!-- <hr> -->
+              <div class="col-12 text-center">
+                <i>All Rights-Reserved Copyright &copy; 2023-2024. Developed By : <span class="end-name">Khatik Mohsin</span> </i>
+              </div>
+            </div>
+          </div>
+        </section><!--end of copyright-->
+        
+
+
+
+        <!-- <footer>
+          <svg viewBox="0 0 120 28">
+           <defs> 
+             <mask id="xxx">
+               <circle cx="7" cy="12" r="40" fill="#fff" />
+             </mask>
+             
+             <filter id="goo">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur" />
+                <feColorMatrix in="blur" mode="matrix" values="
+                     1 0 0 0 0  
+                     0 1 0 0 0  
+                     0 0 1 0 0  
+                     0 0 0 13 -9" result="goo" />
+                <feBlend in="SourceGraphic" in2="goo" />
+              </filter>
+               <path id="wave" d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
+            </defs> 
+          
+             <use id="wave3" class="wave" xlink:href="#wave" x="0" y="-2" ></use> 
+             <use id="wave2" class="wave" xlink:href="#wave" x="0" y="0" ></use>
+           
+            <g class="topball">
+            <circle class="ball" cx="110" cy="8" r="4" stroke="none" stroke-width="0" fill="red" />
+          
+              <g class="arrow">
+              <polyline class="" points="108,8 110,6 112,8" fill="none"  />
+              <polyline class="" points="110,6 110,10.5" fill="none"  />
+              </g>
+              
+            </g>
+            <g class="gooeff">
+            <circle class="drop drop1" cx="20" cy="2" r="1.8"  />
+            <circle class="drop drop2" cx="25" cy="2.5" r="1.5"  />
+            <circle class="drop drop3" cx="16" cy="2.8" r="1.2"  />
+              <use id="wave1" class="wave" xlink:href="#wave" x="0" y="1" />
+          
+          </svg>
+          
+            <div>All Rights-Reserved &copy; 2023, by : Khatik Mohsin</div>
+          </footer> -->
+        
+
+         
+      </section><!--end-of-container-fluid-->  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="Js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="../JS/jquery.counterup.min.js"></script>
+    <script src="../JS/jquery.waypoints.min.js"></script>
+    <script>
+      $(function () {
+          $('.counter').counterUp({
+              delay: 100,
+              time: 4000
+          });
+      });
+  </script>
+  <script>
+    $(window).on('scroll',function(){
+      if ($(window).scrollTop()){
+        $('header').addClass('white');
+      }
+      else{
+        $('header').removeClass('white');
+      }
+    })
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  </body>
+</html>
